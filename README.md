@@ -36,7 +36,7 @@ GitHub Pages serves the repository’s main branch from the root directory. `.no
 
 ## Automatic updates
 
-The build writes a deterministic release identifier to every HTML page and `version.json`. Styles, scripts and public CV links include content hashes, so changed assets use fresh URLs. Build the CV before the website when changing both, so the PDF hash matches the final file.
+The build writes a deterministic release identifier to every HTML page and `version.json`. Styles, scripts and locally hosted PDF links include content hashes, so changed assets use fresh URLs. Build the CV before the website when changing both, so the PDF hash matches the final file.
 
 With JavaScript enabled, the page fetches the small version manifest without browser caching and with a unique query to bypass shared cached responses. It checks on arrival, on return to a tab and every minute while visible. An outdated page navigates to a fresh URL, preserving query filters and anchors; the temporary update parameters are removed once the expected release loads. Failed requests leave the page usable, and a delayed deployment cannot cause an immediate refresh loop.
 
@@ -49,6 +49,8 @@ Validate the update behaviour with `node --test scripts/test-site-updates.mjs` a
 `assets/brecht-verbeken-cv.pdf` is a short public CV. Its source is `scripts/build_cv.py`, which uses ReportLab and the Arial and Times New Roman fonts. The font directory defaults to the macOS system fonts; adjust `FONT_DIR` for another operating system. Regenerate it separately after content changes, then render and inspect both pages before publishing.
 
 The application documents used for biographical research, unpublished manuscript files and private working notes are not included in this repository.
+
+The original 2018 mathematics master’s thesis is hosted unchanged at `assets/brecht-verbeken-masters-thesis.pdf`. The homepage Mathematics section and full thesis entry link to this PDF alongside its Google Scholar record.
 
 ## Data and crawlability
 

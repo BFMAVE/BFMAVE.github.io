@@ -789,7 +789,9 @@
     "school": "Vrije Universiteit Brussel",
     "degree": "Master of Mathematics",
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MC0hy74AAAAJ&citation_for_view=MC0hy74AAAAJ:ufrVoPGSRksC",
-    "summary": "Master’s thesis on units in integral group rings, the Zassenhaus conjecture and the Prime Graph Question using the HeLP method."
+    "summary": "Master’s thesis on units in integral group rings, the Zassenhaus conjecture and the Prime Graph Question using the HeLP method.",
+    "pdf": "https://bfmave.github.io/assets/brecht-verbeken-masters-thesis.pdf",
+    "pdf_label": "Thesis PDF"
   },
   {
     "id": "phd-thesis",

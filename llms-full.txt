@@ -170,6 +170,8 @@ Mathematics is a lasting passion. My main mathematical research line concerns Ma
 
 I occasionally return to algebra, closer to my [master’s thesis on units in integral group rings](https://bfmave.github.io/research.html#paper-masters-thesis): [group rings](https://bfmave.github.io/research.html#paper-2608.03254), the [Prime Graph Question](https://bfmave.github.io/research.html#paper-2607.29105), and [braces](https://bfmave.github.io/research.html#paper-2608.01884). More recently, a [paper on Ramsey graphs](https://bfmave.github.io/research.html#paper-2610.06081)  has provided another setting in which to explore AI-assisted mathematical research.
 
+[Master’s thesis (PDF)](https://bfmave.github.io/assets/brecht-verbeken-masters-thesis.pdf?v=6e96515e9303)  · [Google Scholar record](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MC0hy74AAAAJ&citation_for_view=MC0hy74AAAAJ:ufrVoPGSRksC)
+
 A personal project close to my heart is an [illustrated exploration of the Karpelevič theorem](https://bfmave.github.io/karpelevic/), developed with Vincent Ginis. It brings together a proof, geometric explanations and numerical illustrations of the possible eigenvalues of stochastic matrices. I see this kind of exposition as a service to the mathematical community—work that, in my view, is too often undervalued in science.
 
 [Project website](https://bfmave.github.io/karpelevic/) [Current paper](https://arxiv.org/abs/2609.26058) [Other mathematical papers](https://bfmave.github.io/research.html?topic=mathematics)
@@ -538,7 +540,7 @@ Doctoral research on stochastic model selection and evaluation in manpower plann
 
 Master’s thesis · Vrije Universiteit Brussel, 100 pages · 2018
 
-[Google Scholar record](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MC0hy74AAAAJ&citation_for_view=MC0hy74AAAAJ:ufrVoPGSRksC) Overview
+[Thesis PDF](https://bfmave.github.io/assets/brecht-verbeken-masters-thesis.pdf?v=6e96515e9303) [Google Scholar record](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MC0hy74AAAAJ&citation_for_view=MC0hy74AAAAJ:ufrVoPGSRksC) Overview
 
 Master’s thesis on units in integral group rings, the Zassenhaus conjecture and the Prime Graph Question using the HeLP method.
 

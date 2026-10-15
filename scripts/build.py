@@ -11,12 +11,13 @@ import hashlib
 ROOT = Path(__file__).resolve().parents[1]
 STYLE_VERSION = hashlib.sha256((ROOT / 'assets/styles.css').read_bytes()).hexdigest()[:12]
 SCRIPT_VERSION = hashlib.sha256((ROOT / 'assets/site.js').read_bytes()).hexdigest()[:12]
-PDF_VERSION = hashlib.sha256((ROOT / 'assets/brecht-verbeken-cv.pdf').read_bytes()).hexdigest()[:12]
+PDF_VERSIONS = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()[:12]
+                for p in sorted((ROOT / 'assets').glob('*.pdf'))}
 BASE = os.environ.get('SITE_BASE_URL', 'http://127.0.0.1:8765').rstrip('/')
 # A repeat build has the same version; any public content or asset change has a new one.
 RELEASE_INPUTS = ['scripts/build.py', 'assets/site.js', 'assets/styles.css',
-                  'assets/brecht-verbeken-cv.pdf', 'assets/favicon.svg',
-                  'data/publications.json', 'data/projects.json', 'data/media.json']
+                  'assets/favicon.svg', 'data/publications.json',
+                  'data/projects.json', 'data/media.json', *PDF_VERSIONS]
 SITE_VERSION = hashlib.sha256(BASE.encode() + b''.join(
     name.encode() + b'\0' + (ROOT / name).read_bytes() + b'\0'
     for name in RELEASE_INPUTS)).hexdigest()[:16]
@@ -157,8 +158,10 @@ def page(title, content, filename, description, active='home'):
 </footer>
 </body></html>
 '''
-    return html.replace('href="assets/brecht-verbeken-cv.pdf"',
-                        f'href="assets/brecht-verbeken-cv.pdf?v={PDF_VERSION}"')
+    for path, version in PDF_VERSIONS.items():
+        for url in [path, BASE + '/' + path]:
+            html = html.replace(f'href="{url}"', f'href="{url}?v={version}"')
+    return html
 
 
 
@@ -227,6 +230,7 @@ def home_content():
     <h2 id="math-heading">Mathematics</h2>
     <p>Mathematics is a lasting passion. My main mathematical research line concerns Markov chains and stochastic matrices, particularly their eigenvalues and spectral regions. It also connects to my work on semi-Markov models and applications in manpower planning.</p>
     <p>I occasionally return to algebra, closer to my <a href="research.html#paper-masters-thesis">master’s thesis on units in integral group rings</a>: <a href="research.html#paper-2608.03254">group rings</a>, the <a href="research.html#paper-2607.29105">Prime Graph Question</a>, and <a href="research.html#paper-2608.01884">braces</a>. More recently, a <a href="research.html#paper-2610.06081">paper on Ramsey graphs</a> has provided another setting in which to explore AI-assisted mathematical research.</p>
+    <p class="project-note"><a href="assets/brecht-verbeken-masters-thesis.pdf">Master’s thesis (PDF)</a> · <a href="{esc(BY_ID['masters-thesis']['scholar'])}">Google Scholar record</a></p>
     <p>A personal project close to my heart is an <a href="https://bfmave.github.io/karpelevic/">illustrated exploration of the Karpelevič theorem</a>, developed with Vincent Ginis. It brings together a proof, geometric explanations and numerical illustrations of the possible eigenvalues of stochastic matrices. I see this kind of exposition as a service to the mathematical community—work that, in my view, is too often undervalued in science.</p>
     <div class="text-links"><a href="https://bfmave.github.io/karpelevic/">Project website</a><a href="https://arxiv.org/abs/2609.26058">Current paper</a><a href="research.html?topic=mathematics">Other mathematical papers</a></div>
   </div>
@@ -531,6 +535,7 @@ Last updated: {UPDATED}. The public HTML is complete without JavaScript. The tex
 - [Media]({BASE}/data/media.json): Titles, outlets, dates, authorship or coverage type, languages and source links.
 - [BibTeX]({BASE}/assets/publications.bib): Bibliographic export.
 - [Public CV PDF]({BASE}/assets/brecht-verbeken-cv.pdf): The short public curriculum vitae.
+- [Master’s thesis PDF]({BASE}/assets/brecht-verbeken-masters-thesis.pdf): The complete 2018 mathematics thesis; its Google Scholar record is linked from the Research page.
 
 ## External profiles
 

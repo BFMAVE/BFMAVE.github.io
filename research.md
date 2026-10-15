@@ -338,6 +338,6 @@ Doctoral research on stochastic model selection and evaluation in manpower plann
 
 Master’s thesis · Vrije Universiteit Brussel, 100 pages · 2018
 
-[Google Scholar record](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MC0hy74AAAAJ&citation_for_view=MC0hy74AAAAJ:ufrVoPGSRksC) Overview
+[Thesis PDF](https://bfmave.github.io/assets/brecht-verbeken-masters-thesis.pdf?v=6e96515e9303) [Google Scholar record](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MC0hy74AAAAJ&citation_for_view=MC0hy74AAAAJ:ufrVoPGSRksC) Overview
 
 Master’s thesis on units in integral group rings, the Zassenhaus conjecture and the Prime Graph Question using the HeLP method.

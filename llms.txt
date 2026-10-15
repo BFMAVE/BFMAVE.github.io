@@ -22,6 +22,7 @@ Last updated: 15 October 2026. The public HTML is complete without JavaScript. T
 - [Media](https://bfmave.github.io/data/media.json): Titles, outlets, dates, authorship or coverage type, languages and source links.
 - [BibTeX](https://bfmave.github.io/assets/publications.bib): Bibliographic export.
 - [Public CV PDF](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf): The short public curriculum vitae.
+- [Master’s thesis PDF](https://bfmave.github.io/assets/brecht-verbeken-masters-thesis.pdf): The complete 2018 mathematics thesis; its Google Scholar record is linked from the Research page.
 
 ## External profiles
 
