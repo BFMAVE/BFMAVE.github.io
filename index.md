@@ -117,7 +117,7 @@ Nature, 649, 1139–1146 · 2026 · Brecht F. Verbeken: contributor to the HLE c
 
 - **[Course information sheets.](https://bfmave.github.io/projects.html#course-sheets) ** I led the technical implementation of a reusable LLM-assisted classification workflow at VUB, combining human validation and quality controls. [Paper](https://arxiv.org/abs/2603.13562).
 
-- **[Data analysis and modelling.](https://bfmave.github.io/projects.html#greening) ** In the context of greening and CO₂ neutrality.
+- **[Data analysis and modelling with imec.](https://bfmave.github.io/projects.html#greening) ** In the context of greening and CO₂ neutrality.
 
 ## Media and public writing
 [All media](https://bfmave.github.io/media.html)

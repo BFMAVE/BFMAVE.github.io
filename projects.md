@@ -52,8 +52,12 @@ The analysis examines geographical differences and sensitivity to departure timi
 
 [Working paper](https://arxiv.org/abs/2509.22223) [Paper PDF](https://arxiv.org/pdf/2509.22223) [BRUZZ coverage](https://www.bruzz.be/actua/mobiliteit/onderzoekers-over-metro-3-amper-voordelen-bij-halve-aanleg-2025-10-03)
 
-## Data analysis and modelling
+## Data analysis and modelling with imec
 
 Greening · CO₂ neutrality
 
-Data analysis and modelling in the context of greening and CO₂ neutrality.
+I work with imec on data analysis and modelling in the context of greening and CO₂ neutrality.
+
+imec is an independent research and innovation centre specialising in nanoelectronics and digital technologies. It develops semiconductor technologies and applications with industrial and academic partners.
+
+[About imec](https://www.imec-int.com/en/about-us)

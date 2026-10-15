@@ -191,7 +191,7 @@ def home_content():
     <li><strong><a href="projects.html#fari">Public-sector AI review.</a></strong> For FARI within AI4Gov-X Accelerate, I co-authored an internal review of AI4Scale requirements and prototype validation, addressing feasibility, deployment and governance.</li>
     <li><strong>Public investment under uncertainty.</strong> I led a <a href="https://arxiv.org/abs/2509.22223">scenario-based study of Brussels Metro 3</a>, examining accessibility and its distribution across the city.</li>
     <li><strong><a href="projects.html#course-sheets">Course information sheets.</a></strong> I led the technical implementation of a reusable LLM-assisted classification workflow at VUB, combining human validation and quality controls. <a href="https://arxiv.org/abs/2603.13562">Paper</a>.</li>
-    <li><strong><a href="projects.html#greening">Data analysis and modelling.</a></strong> In the context of greening and CO₂ neutrality.</li>
+    <li><strong><a href="projects.html#greening">Data analysis and modelling with imec.</a></strong> In the context of greening and CO₂ neutrality.</li>
   </ul>
 </section>
 
@@ -439,7 +439,7 @@ def build():
     outputs = [
         ('index.html', 'Economics, data science and AI', home_content(), 'Brecht F. Verbeken: economist (PhD) and mathematician (MSc) by training, data scientist, and researcher on economics, AI and scientific discovery at Vrije Universiteit Brussel.', 'home'),
         ('research.html', 'Research', research_content(), 'Publications and working papers by Brecht F. Verbeken in economics, AI, model evaluation and mathematics.', 'research'),
-        ('projects.html', 'Projects', projects_content(), 'Brecht F. Verbeken’s research and institutional work: Greening and CO₂ neutrality, AI and science, JRC collaboration, FARI / AI4Gov-X, course information sheets and Brussels Metro 3.', 'projects'),
+        ('projects.html', 'Projects', projects_content(), 'Brecht F. Verbeken’s research and institutional work: Greening and CO₂ neutrality with imec, AI and science, JRC collaboration, FARI / AI4Gov-X, course information sheets and Brussels Metro 3.', 'projects'),
         ('media.html', 'Media and public writing', media_content(), 'Brecht F. Verbeken’s opinion articles and research coverage in De Standaard, BRUZZ, Eos Wetenschap, Phys.org and other outlets.', 'media'),
         ('cv.html', 'Curriculum vitae', cv_content(), 'Curriculum vitae of Brecht F. Verbeken: economics, data science and AI at Vrije Universiteit Brussel.', 'cv'),
         ('404.html', 'Page not found', '<section class="not-found"><p class="eyebrow">404</p><h1>Page not found</h1><p>This page may have moved. You can return to <a href="./">my homepage</a> or browse <a href="research.html">my research</a>.</p></section>', 'Return to Brecht F. Verbeken’s personal website.', ''),

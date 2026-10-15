@@ -101,12 +101,18 @@
   },
   {
     "id": "greening",
-    "name": "Data analysis and modelling",
+    "name": "Data analysis and modelling with imec",
     "context": "Greening · CO₂ neutrality",
-    "role": "Data analysis and modelling in the context of greening and CO₂ neutrality.",
+    "role": "Data analysis and modelling with imec in the context of greening and CO₂ neutrality.",
     "paragraphs": [
-      "Data analysis and modelling in the context of greening and CO₂ neutrality."
+      "I work with imec on data analysis and modelling in the context of greening and CO₂ neutrality.",
+      "imec is an independent research and innovation centre specialising in nanoelectronics and digital technologies. It develops semiconductor technologies and applications with industrial and academic partners."
     ],
-    "links": []
+    "links": [
+      {
+        "label": "About imec",
+        "url": "https://www.imec-int.com/en/about-us"
+      }
+    ]
   }
 ]
