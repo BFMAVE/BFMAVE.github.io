@@ -132,7 +132,7 @@ Conference on Physics and AI (PAI26), Stanford University · 2026
 
 ## Working papers
 
-### Rational Dyck Excursion Counts as Sums of Generalized Fuss–Catalan Products
+### Sums of Generalized Fuss–Catalan Products
 
 **Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
 
