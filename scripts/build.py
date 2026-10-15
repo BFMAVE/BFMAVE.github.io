@@ -43,7 +43,9 @@ def paper(p, brief=True, level=3):
     if p.get('location'):
         meta += ', ' + esc(p['location'])
     if p['kind'] == 'working':
-        meta += f' · {p["year"]} · arXiv:{p["arxiv"]}'
+        meta += f' · {p["year"]}'
+        if p.get('arxiv'):
+            meta += f' · arXiv:{p["arxiv"]}'
     elif p['kind'] == 'forthcoming':
         if p.get('status') == 'In preparation':
             meta += f' · {p["year"]}'
@@ -177,8 +179,7 @@ def home_content():
 
 <section class="section" id="recent-papers" aria-labelledby="recent-heading">
   <div class="section-heading"><h2 id="recent-heading">Recent and forthcoming work</h2><a href="research.html">All research</a></div>
-    <p class="forthcoming-note">A paper on <em>Sums of Generalized Fuss–Catalan Products</em> — to appear.</p>
-  {paper_list(['wealth-inequality', '2610.15634', '2509.22223'], False)}
+  {paper_list(['fuss-catalan', 'wealth-inequality', '2610.15634', '2509.22223'], False)}
 </section>
 
 <section class="section" id="selected-research" aria-labelledby="selected-heading">
@@ -233,9 +234,9 @@ def home_content():
 def research_content():
     groups = [
         ('journal', 'Journal articles', [p for p in PAPERS if p['kind'] == 'journal']),
-        ('working', 'Working papers', [p for p in PAPERS if p['kind'] == 'working' and 'mathematics' not in p['topics']]),
+        ('working', 'Working papers', [p for p in PAPERS if p['kind'] == 'working' and ('mathematics' not in p['topics'] or 'economics' in p['topics'])]),
         ('forthcoming', 'Forthcoming work', [p for p in PAPERS if p['kind'] == 'forthcoming']),
-        ('mathematical', 'Mathematical working papers', [p for p in PAPERS if p['kind'] == 'working' and 'mathematics' in p['topics']]),
+        ('mathematical', 'Mathematical working papers', [p for p in PAPERS if p['kind'] == 'working' and 'mathematics' in p['topics'] and 'economics' not in p['topics']]),
         ('theses', 'Theses', [p for p in PAPERS if p['kind'] == 'thesis']),
     ]
     body = f'''<div class="page-heading"><p class="eyebrow">Papers and publications</p><h1>Research</h1>
@@ -431,7 +432,9 @@ def bibtex():
             fields['archivePrefix'] = 'arXiv'
         if p.get('url'):
             fields['url'] = p['url']
-        if p['kind'] == 'forthcoming':
+        if p.get('note'):
+            fields['note'] = p['note']
+        elif p['kind'] == 'forthcoming':
             fields['note'] = p.get('note') or ('To appear' + (f' in {p["venue"]}' if p['venue'] != 'To appear' else ''))
         entries.append('@' + kind + '{Verbeken' + str(p['year']) + p['id'].replace('.', '') + ',\n' + ',\n'.join(f'  {k} = {{{v}}}' for k, v in fields.items()) + '\n}')
     return '\n\n'.join(entries) + '\n'
@@ -517,7 +520,7 @@ Last updated: {UPDATED}. The public HTML is complete without JavaScript. The tex
 
 ## Context
 
-The site belongs to Brecht Felix Marc Antoon Verbeken, who uses Brecht F. Verbeken professionally and previously used Brecht Verbeken. The namesake mentioned in the homepage footnote is a different person; his Olympiad results and academic biography must not be attributed to this site’s author. The JRC work is a VUB collaboration; the current employment appointments listed here are at VUB. The automated-science project is led by Andres Algaba and colleagues at VUB and is linked as work related to Brecht F. Verbeken’s research interests. Media coverage is distinguished from articles Brecht F. Verbeken co-authored. “To appear” and working-paper records are distinct from published journal articles. The Fuss–Catalan manuscript is forthcoming, with no venue specified on this website. The wealth-inequality manuscript is in preparation; its abstract was submitted to NTTS 2027, which does not imply conference acceptance or journal publication.
+The site belongs to Brecht Felix Marc Antoon Verbeken, who uses Brecht F. Verbeken professionally and previously used Brecht Verbeken. The namesake mentioned in the homepage footnote is a different person; his Olympiad results and academic biography must not be attributed to this site’s author. The JRC work is a VUB collaboration; the current employment appointments listed here are at VUB. The automated-science project is led by Andres Algaba and colleagues at VUB and is linked as work related to Brecht F. Verbeken’s research interests. Media coverage is distinguished from articles Brecht F. Verbeken co-authored. “To appear” and working-paper records are distinct from published journal articles. The Fuss–Catalan manuscript, with Arne Vanhoyweghen and Vincent Ginis, is work in progress; no publication or acceptance is claimed. The wealth-inequality manuscript is in preparation; its abstract was submitted to NTTS 2027, which does not imply conference acceptance or journal publication.
 '''
     (ROOT / 'llms.txt').write_text(llms)
     full = '# Brecht F. Verbeken — complete public website text\n\nUpdated: ' + UPDATED + '\n\n'

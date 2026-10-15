@@ -122,6 +122,15 @@ Mathematics, 9(14), 1681 · 2021
 
 ## Working papers
 
+### Rational Dyck Excursion Counts as Sums of Generalized Fuss–Catalan Products
+
+**Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
+
+Work in progress · 2026
+Overview
+
+Counting returning walks with unequal upward and downward steps through products of generalised Fuss–Catalan coefficients. This mathematical work arose from our collaboration on ergodicity economics.
+
 ### [Big-Big-SycoBench: A Benchmark to Detect Sycophancy Through Model Responses to Valid vs. Invalid Arguments](https://arxiv.org/abs/2610.15634)
 
 Marthe Ballon, Arne Vanhoyweghen, Seorin Kim, Francesca Carlon, Lynn Delcon, Melika Mobini, Vincent Holst, Lukas Van de Voorde, Tibo Vanleke, Mathieu Louis, Bert Verbruggen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
@@ -215,15 +224,6 @@ Working paper · 2025 · arXiv:2509.22223
 We compare public-transport accessibility under alternative Metro 3 scenarios in Brussels, examining geographical differences and sensitivity to timing.
 
 ## Forthcoming work
-
-### Rational Dyck Excursion Counts as Sums of Generalized Fuss–Catalan Products
-
-**Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
-
-To appear
-Overview
-
-Counting returning walks with unequal upward and downward steps through products of generalised Fuss–Catalan coefficients. This mathematical work arose from our collaboration on ergodicity economics.
 
 ### From Distributional Wealth Accounts to inequality dynamics
 

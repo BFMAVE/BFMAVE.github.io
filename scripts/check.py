@@ -46,7 +46,7 @@ def main():
         json.loads(path.read_text())
     records = json.loads((ROOT / 'data/publications.json').read_text())
     assert len(records) == len({p['id'] for p in records}), 'Duplicate publication record'
-    assert next(p for p in records if p['id'] == 'fuss-catalan')['kind'] == 'forthcoming'
+    assert next(p for p in records if p['id'] == 'fuss-catalan')['status'] == 'Work in progress'
     assert not any((ROOT / 'assets').glob('*.jpg')), 'Portrait asset remains'
     assert all((ROOT / f).exists() for f in ['llms.txt', 'llms-full.txt', 'sitemap.xml', 'robots.txt', 'data/profile.json'])
     for path in list(ROOT.glob('*.html')) + list(ROOT.glob('*.md')) + list((ROOT/'data').glob('*.json')):

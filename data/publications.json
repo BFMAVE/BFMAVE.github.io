@@ -742,15 +742,16 @@
     ],
     "year": 2026,
     "date": "2026-10-15",
-    "kind": "forthcoming",
-    "venue": "To appear",
+    "kind": "working",
+    "venue": "Work in progress",
     "topics": [
       "economics",
       "ergodicity",
       "mathematics"
     ],
-    "note": "To appear",
-    "summary": "Counting returning walks with unequal upward and downward steps through products of generalised Fuss–Catalan coefficients. This mathematical work arose from our collaboration on ergodicity economics."
+    "note": "Work in progress",
+    "summary": "Counting returning walks with unequal upward and downward steps through products of generalised Fuss–Catalan coefficients. This mathematical work arose from our collaboration on ergodicity economics.",
+    "status": "Work in progress"
   },
   {
     "id": "masters-thesis",

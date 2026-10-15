@@ -39,7 +39,11 @@ I have also served as an examiner, supervisor or co-supervisor for master’s th
 ## Recent and forthcoming work
 [All research](https://bfmave.github.io/research.html)
 
-A paper on *Sums of Generalized Fuss–Catalan Products* — to appear.
+### Rational Dyck Excursion Counts as Sums of Generalized Fuss–Catalan Products
+
+**Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
+
+Work in progress · 2026
 
 ### From Distributional Wealth Accounts to inequality dynamics
 
