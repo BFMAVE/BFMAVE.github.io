@@ -1,0 +1,6 @@
+.DS_Store
+.local-notes/
+node_modules/
+__pycache__/
+*.pyc
+

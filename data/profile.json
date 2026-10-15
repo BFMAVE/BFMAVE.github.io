@@ -1,0 +1,101 @@
+{
+  "name": "Brecht F. Verbeken",
+  "full_name": "Brecht Felix Marc Antoon Verbeken",
+  "alternate_names": [
+    "Brecht Verbeken",
+    "Brecht F Verbeken"
+  ],
+  "website": "https://bfmave.github.io/",
+  "updated": "2026-10-15",
+  "location": "Brussels, Belgium",
+  "description": "Economist (PhD) and mathematician (MSc) by training; data scientist with strong interests in economics and AI and a passion for mathematics.",
+  "email": "brecht.verbeken@vub.be",
+  "orcid": "https://orcid.org/0000-0002-7506-3298",
+  "google_scholar": "https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en",
+  "vub_profile": "https://researchportal.vub.be/en/persons/brecht-verbeken/",
+  "appointments": [
+    {
+      "period": "2025–present",
+      "title": "Guest Professor (10%)",
+      "institution": "Vrije Universiteit Brussel",
+      "description": "Course holder for Mathematics II for Business Economics (6 ECTS); teaching, assessment and master’s-thesis supervision."
+    },
+    {
+      "period": "2024–present",
+      "title": "Postdoctoral Researcher (90%)",
+      "institution": "Vrije Universiteit Brussel",
+      "description": "Research in model evaluation, AI in science and mathematics, and stochastic systems; institutional AI workflows and interdisciplinary collaboration."
+    },
+    {
+      "period": "2022–2024",
+      "title": "Research Associate",
+      "institution": "Vrije Universiteit Brussel",
+      "description": "Research on uplift-model evaluation and semi-Markov processes; mathematics teaching and thesis supervision."
+    },
+    {
+      "period": "2018–2022",
+      "title": "Doctoral Researcher",
+      "institution": "Vrije Universiteit Brussel",
+      "description": "Stochastic models for manpower planning; collaboration on economic nowcasting and ergodicity economics; teaching duties."
+    }
+  ],
+  "education": [
+    {
+      "year": "2024",
+      "degree": "PhD in Applied Economic Sciences",
+      "institution": "Vrije Universiteit Brussel · Business Engineering",
+      "description": "On Models and Metrics: Improving Stochastic Model Performance in Manpower Planning."
+    },
+    {
+      "year": "2018",
+      "degree": "Master of Mathematics",
+      "institution": "Vrije Universiteit Brussel / University of Antwerp",
+      "description": "Fundamental Mathematics."
+    },
+    {
+      "year": "2016",
+      "degree": "Bachelor of Mathematics",
+      "institution": "Vrije Universiteit Brussel",
+      "description": ""
+    }
+  ],
+  "interests": [
+    "Economic impact of AI",
+    "Scientific discovery and innovation",
+    "Economic forecasting",
+    "Model evaluation",
+    "AI in mathematics and science",
+    "Ergodicity economics",
+    "Markov chains and stochastic matrices",
+    "Group rings and braces"
+  ],
+  "research_areas": {
+    "economics": [
+      "Economic impact of AI",
+      "Economic forecasting",
+      "Decision-making under uncertainty",
+      "Public investment and transport accessibility",
+      "Ergodicity economics"
+    ],
+    "ai": [
+      "Model evaluation",
+      "AI in scientific discovery",
+      "AI-assisted mathematical research"
+    ],
+    "mathematics": [
+      "Markov chains and semi-Markov models",
+      "Stochastic matrices and spectral regions",
+      "Group rings and braces",
+      "Ramsey theory as a setting for AI-assisted research"
+    ]
+  },
+  "collaboration_role": "Often helps set the research agenda and lead collaborations; has done so since the early years of his PhD.",
+  "recent_research_direction": "Economic impact of AI, particularly its effects on scientific discovery and innovation.",
+  "teaching_since": 2018,
+  "academic_service": [
+    "Examiner, supervisor or co-supervisor for master’s theses spanning a wide range of economics and business topics",
+    "PhD advisory committee membership and doctoral progress assessment",
+    "HR and recruitment responsibilities at the Data Analytics Lab, including candidate selection"
+  ],
+  "mathematics_project": "https://bfmave.github.io/karpelevic/"
+}

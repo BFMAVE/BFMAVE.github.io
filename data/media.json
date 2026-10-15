@@ -1,0 +1,146 @@
+[
+  {
+    "id": "superhacker",
+    "title": "De wereld heeft er een superhacker bij, nu nog leren hoe we daarmee omgaan",
+    "outlet": "De Standaard",
+    "date": "2026-08",
+    "display_date": "August 2026",
+    "kind": "authored",
+    "type": "Opinion article",
+    "authors": [
+      "Andres Algaba",
+      "Brecht F. Verbeken"
+    ],
+    "language": "nl",
+    "url": "https://www.standaard.be/opinies/de-wereld-heeft-er-een-superhacker-bij-nu-nog-leren-hoe-we-daarmee-omgaan/159873818.html",
+    "description": "On AI agents, cybersecurity and the limits of almost-complete safeguards.",
+    "alternative": "https://www.vub.be/en/news/ai-agents-and-cybersecurity-almost-safe-isnt-safe-enough",
+    "alternative_label": "English version at VUB"
+  },
+  {
+    "id": "sovereignty",
+    "title": "Soevereiniteit is geen Europese chatbot",
+    "outlet": "De Standaard",
+    "date": "2026-06",
+    "display_date": "June 2026",
+    "kind": "authored",
+    "type": "Opinion article",
+    "authors": [
+      "Vincent Ginis",
+      "Andres Algaba",
+      "Brecht F. Verbeken"
+    ],
+    "language": "nl",
+    "url": "https://www.standaard.be/opinies/soevereiniteit-is-geen-europese-chatbot/157225846.html",
+    "description": "On European AI sovereignty, technological dependence and access to advanced models.",
+    "alternative": "https://www.vub.be/en/news/sovereignty-is-not-european-chatbot",
+    "alternative_label": "English version at VUB"
+  },
+  {
+    "id": "eos-hle",
+    "title": "Is Humanity’s Last Exam echt de ultieme beproeving van AI?",
+    "outlet": "Eos Wetenschap",
+    "date": "2025-02-18",
+    "display_date": "18 February 2025",
+    "kind": "authored",
+    "type": "Science explainer",
+    "authors": [
+      "Andres Algaba",
+      "Brecht F. Verbeken",
+      "Vincent Ginis"
+    ],
+    "language": "nl",
+    "url": "https://www.eoswetenschap.eu/technologie/humanitys-last-exam-echt-de-ultieme-beproeving-van-ai",
+    "description": "On the difficulty of building demanding AI benchmarks and verifying answers at the frontier of human knowledge."
+  },
+  {
+    "id": "intellect",
+    "title": "Hoe gaan we om met technologie die ons intellectueel voorbijstreeft?",
+    "outlet": "De Standaard",
+    "date": "2025-01-28",
+    "display_date": "28 January 2025",
+    "kind": "authored",
+    "type": "Opinion article",
+    "authors": [
+      "Vincent Ginis",
+      "Andres Algaba",
+      "Brecht F. Verbeken"
+    ],
+    "language": "nl",
+    "url": "https://www.standaard.be/opinies/hoe-gaan-we-om-met-technologie-die-ons-intellectueel-voorbijstreeft/36225623.html",
+    "description": "On AI capabilities, Humanity’s Last Exam and the implications for human intellectual work.",
+    "alternative": "https://www.vub.be/en/news/hoe-gaan-we-om-met-technologie-die-ons-intellectueel-voorbijstreeft",
+    "alternative_label": "English version at VUB"
+  },
+  {
+    "id": "phys-proofs",
+    "title": "ChatGPT can provide original mathematical proofs, researchers show",
+    "outlet": "Phys.org",
+    "date": "2026-03-16",
+    "display_date": "16 March 2026",
+    "kind": "coverage",
+    "type": "Research coverage · VUB press release",
+    "authors": [
+      "Frans Steenhoudt"
+    ],
+    "language": "en",
+    "url": "https://phys.org/news/2026-03-chatgpt-mathematical-proofs.html",
+    "description": "Coverage of our AI-assisted mathematical proof case study, including comments from me and my colleagues.",
+    "alternative": "https://www.vub.be/en/news/chatgpt-can-autonomously-provide-mathematical-proofs",
+    "alternative_label": "University release"
+  },
+  {
+    "id": "zdnet-proofs",
+    "title": "'월 20달러' 챗GPT로 수학 난제 풀었다…'바이브 증명'의 충격적 실험",
+    "outlet": "ZDNet Korea",
+    "date": "2026-02-26",
+    "display_date": "26 February 2026",
+    "kind": "coverage",
+    "type": "Research coverage · AI-assisted · Korean",
+    "authors": [
+      "AI Editor"
+    ],
+    "language": "ko",
+    "url": "https://zdnet.co.kr/view/?no=20260226221839",
+    "description": "Korean-language coverage of our case study on AI-assisted mathematical proof development. The article names Brecht F. Verbeken and links directly to our paper (arXiv:2602.18918). The outlet identifies the piece as AI-assisted reporting, supplied through AI Matters."
+  },
+  {
+    "id": "bruzz-metro",
+    "title": "Onderzoekers over metro 3: ‘Amper voordelen bij halve aanleg’",
+    "outlet": "BRUZZ",
+    "date": "2025-10-03",
+    "display_date": "3 October 2025",
+    "kind": "coverage",
+    "type": "Research coverage and expert comments",
+    "authors": [
+      "Emmanuel Vanbrussel"
+    ],
+    "language": "nl",
+    "url": "https://www.bruzz.be/actua/mobiliteit/onderzoekers-over-metro-3-amper-voordelen-bij-halve-aanleg-2025-10-03",
+    "description": "Reporting on our Brussels Metro 3 accessibility study and its implications for partial and full implementation."
+  },
+  {
+    "id": "lecho-science",
+    "title": "La VUB sélectionnée par OpenAI pour mesurer l’impact de l’IA sur l’innovation scientifique",
+    "outlet": "L’Echo",
+    "date": "2026-08",
+    "display_date": "August 2026",
+    "kind": "project-coverage",
+    "type": "Project coverage · French",
+    "language": "fr",
+    "url": "https://www.lecho.be/entreprises/tech-science/la-vub-selectionnee-par-openai-pour-mesurer-l-impact-de-l-ia-sur-l-innovation-scientifique/10684099.html",
+    "description": "Coverage of The Rate and Direction of Automated Science, a project led by Andres Algaba and colleagues at VUB, on a topic closely related to my research interests."
+  },
+  {
+    "id": "vub-science",
+    "title": "Onderzoeksgroep van VUB geselecteerd voor internationaal onderzoeksprogramma van OpenAI",
+    "outlet": "VUB Press",
+    "date": "2026-08-31",
+    "display_date": "31 August 2026",
+    "kind": "project-coverage",
+    "type": "University announcement",
+    "language": "nl",
+    "url": "https://press.vub.ac.be/onderzoeksgroep-van-vub-geselecteerd-voor-internationaal-onderzoeksprogramma-van-openai",
+    "description": "The university’s announcement of The Rate and Direction of Automated Science and its selection for the Economic Research Exchange."
+  }
+]

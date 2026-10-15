@@ -1,0 +1,35 @@
+# Brecht F. Verbeken
+
+> Personal academic website of Brecht F. Verbeken, an economist (PhD) and mathematician (MSc) by training who works as a data scientist, postdoctoral researcher and guest professor at Vrije Universiteit Brussel. Interests: economics and AI; more recently, AI’s economic impact and its role in scientific discovery. Mathematics is also a personal passion.
+
+Last updated: 15 October 2026. The public HTML is complete without JavaScript. The text and structured records below mirror the visible website.
+
+## Pages
+
+- [About](https://bfmave.github.io/index.md): Introduction, economic effects of AI, ergodicity economics, selected papers and mathematics.
+- [Research](https://bfmave.github.io/research.md): Journal articles, working papers, forthcoming work, theses and mathematical papers; subject filters, author lists, venues and free paper links.
+- [Projects](https://bfmave.github.io/projects.md): Automated science, the VUB collaboration with the JRC, FARI / AI4Gov-X, course-sheet classification and Metro 3.
+- [Media](https://bfmave.github.io/media.md): Co-authored opinion pieces and explainers, research reporting, and project announcements.
+- [CV](https://bfmave.github.io/cv.md): Appointments, education, selected projects, publications, languages and contact details.
+- [Complete text](https://bfmave.github.io/llms-full.txt): All five pages in one text file.
+
+## Structured data
+
+- [Profile](https://bfmave.github.io/data/profile.json): Identity, degrees, current appointments and research interests.
+- [Publications](https://bfmave.github.io/data/publications.json): Curated publication records with journal, preprint and forthcoming status, plus DOI/arXiv identifiers.
+- [Scholarly articles](https://bfmave.github.io/data/scholarly-articles.jsonld): Schema.org representation of articles and theses in the bibliography.
+- [Projects](https://bfmave.github.io/data/projects.json): Research interests, related projects and contributions by Brecht F. Verbeken.
+- [Media](https://bfmave.github.io/data/media.json): Titles, outlets, dates, authorship or coverage type, languages and source links.
+- [BibTeX](https://bfmave.github.io/assets/publications.bib): Bibliographic export.
+- [Public CV PDF](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf): The short public curriculum vitae.
+
+## External profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en): Citation profile.
+- [ORCID](https://orcid.org/0000-0002-7506-3298): Researcher identifier.
+- [VUB](https://researchportal.vub.be/en/persons/brecht-verbeken/): Institutional research profile.
+- [Karpelevič project](https://bfmave.github.io/karpelevic/): Separate personal mathematics website.
+
+## Context
+
+The site belongs to Brecht Felix Marc Antoon Verbeken, who uses Brecht F. Verbeken professionally and previously used Brecht Verbeken. The namesake mentioned in the homepage footnote is a different person; his Olympiad results and academic biography must not be attributed to this site’s author. The JRC work is a VUB collaboration; the current employment appointments listed here are at VUB. The automated-science project is led by Andres Algaba and colleagues at VUB and is linked as work related to Brecht F. Verbeken’s research interests. Media coverage is distinguished from articles Brecht F. Verbeken co-authored. “To appear” and working-paper records are distinct from published journal articles. The Fuss–Catalan manuscript is forthcoming, with no venue specified on this website. The wealth-inequality manuscript is in preparation; its abstract was submitted to NTTS 2027, which does not imply conference acceptance or journal publication.

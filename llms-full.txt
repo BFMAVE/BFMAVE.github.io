@@ -1,0 +1,837 @@
+# Brecht F. Verbeken — complete public website text
+
+Updated: 15 October 2026
+
+
+
+---
+
+Source: https://bfmave.github.io/
+
+# Brecht F. Verbeken[*](https://bfmave.github.io/#name-note)
+
+I am an economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI, with a lasting passion for mathematics.
+
+I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.
+
+I am a postdoctoral researcher and guest professor at the [Vrije Universiteit Brussel](https://researchportal.vub.be/en/persons/brecht-verbeken/). More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.
+
+[CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en) [ORCID](https://orcid.org/0000-0002-7506-3298) [GitHub](https://github.com/BFMAVE) [brecht.verbeken@vub.be](mailto:brecht.verbeken@vub.be)
+
+“I am not a donkey; I don’t have a field.”
+Falsely(?) attributed to [Max Weber](https://maxweberstudies.org/source/files/MWSJournal/17.2pdfs/Max_Weber_Studies_17.2_LS_FINAL.pdf)
+
+I am always curious about my colleagues’ research. My quantitative background often gives me a way to contribute, and these collaborations have taken me into many different areas. Sometimes this leads to an acknowledgement; sometimes to co-authorship. Perhaps the common thread is helping others move their research forward.
+
+I am proud of the team and colleagues I work with, at the [Data Analytics Lab](https://data.research.vub.be/people)  and beyond. Much of this work reflects our shared effort.
+
+Take citation metrics with a pinch of salt. Measures of scientific impact can be sensitive to [dataset artefacts](https://doi.org/10.1038/s41586-026-10787-y), as shown by [Vincent Holst](https://data.research.vub.be/vincent-holst)  and colleagues.
+
+## Current research
+
+### Economics
+
+Regarding my interests and work:
+
+“An economist who is only an economist cannot even be a good economist.”
+[F. A. Hayek, interview with Leo Rosten (1978)](https://static.library.ucla.edu/oralhistory/text/masters/21198-zz0008zd21-4-master.html)
+
+More recently, my interests have turned to the economic effects of AI, particularly its effects on scientific discovery and innovation. This includes how AI changes the pace and direction of research, which questions receive attention, and how verification costs affect the value of automation.
+
+Colleagues at VUB, led by Andres Algaba, are exploring this line of work through [*The Rate and Direction of Automated Science*](https://press.vub.ac.be/onderzoeksgroep-van-vub-geselecteerd-voor-internationaal-onderzoeksprogramma-van-openai), a project selected for OpenAI’s Economic Research Exchange.
+
+Related work: [LLM-generated research methods](https://bfmave.github.io/research.html#paper-2606.26130)  and [scientific literature and citation practices](https://bfmave.github.io/research.html#paper-2504.02767).
+
+My economics work also includes [economic forecasting](https://bfmave.github.io/research.html#paper-nowcasting), decision-making under uncertainty, [public investment and transport accessibility](https://bfmave.github.io/research.html#paper-2509.22223), and [ergodicity economics](https://bfmave.github.io/research.html#paper-ergodicity)  with [Arne Vanhoyweghen](https://data.research.vub.be/arne-vanhoyweghen0)  and colleagues.
+
+I have also served as an examiner, supervisor or co-supervisor for master’s theses spanning a wide range of economics and business topics.
+
+## Recent and forthcoming work
+[All research](https://bfmave.github.io/research.html)
+
+A paper on *Sums of Generalized Fuss–Catalan Products* — to appear.
+
+### From Distributional Wealth Accounts to inequality dynamics
+
+[Arne Vanhoyweghen](https://data.research.vub.be/arne-vanhoyweghen0), **Brecht F. Verbeken**, Vincent Ginis, [Nabil Bouamara](https://www.nbb.be/en/publications-research/publications/authors/nabil-bouamara)
+
+Manuscript in preparation · 2026 · Abstract submitted to NTTS 2027
+
+### [Big-Big-SycoBench: A Benchmark to Detect Sycophancy Through Model Responses to Valid vs. Invalid Arguments](https://arxiv.org/abs/2610.15634)
+
+Marthe Ballon, Arne Vanhoyweghen, Seorin Kim, Francesca Carlon, Lynn Delcon, Melika Mobini, Vincent Holst, Lukas Van de Voorde, Tibo Vanleke, Mathieu Louis, Bert Verbruggen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
+
+Working paper · 2026 · arXiv:2610.15634
+
+[PDF](https://arxiv.org/pdf/2610.15634)
+
+### [Metro 3 in Brussels under uncertainty: scenario-based public transport accessibility analysis](https://arxiv.org/abs/2509.22223)
+
+**Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
+
+Working paper · 2025 · arXiv:2509.22223
+
+[PDF](https://arxiv.org/pdf/2509.22223)
+
+## Selected published papers
+[All publications](https://bfmave.github.io/research.html#journal)
+
+### [How deep do large language models internalize scientific literature and citation practices?](https://doi.org/10.1162/qss.a.502)
+
+Andres Algaba, Vincent Holst, Floriano Tori, Melika Mobin, **Brecht F. Verbeken**, Sylvia Wenmackers, Vincent Ginis
+
+Quantitative Science Studies, 7, 1306–1321 · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2504.02767) [arXiv record](https://arxiv.org/abs/2504.02767)
+
+### [Lexical hints of accuracy in LLM reasoning chains](https://doi.org/10.1038/s41598-026-55000-2)
+
+Arne Vanhoyweghen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
+
+Scientific Reports, 16, article 25593 · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2508.15842) [arXiv record](https://arxiv.org/abs/2508.15842)
+
+### [Uplift Model Evaluation with Ordinal Dominance Graphs](https://www.jmlr.org/papers/v26/22-1455.html)
+
+**Brecht F. Verbeken**, Marie-Anne Guerry, Wouter Verbeke, Sam Verboven
+
+Journal of Machine Learning Research, 26(90), 1–56 · 2025
+
+[PDF](https://www.jmlr.org/papers/volume26/22-1455/22-1455.pdf)
+
+### [Daily news sentiment and monthly surveys: A mixed-frequency dynamic factor model for nowcasting consumer confidence](https://doi.org/10.1016/j.ijforecast.2021.11.005)
+
+Andres Algaba, Samuel Borms, Kris Boudt, **Brecht F. Verbeken**
+
+International Journal of Forecasting, 39(1), 266–278 · 2023
+
+[Working-paper PDF](https://www.nbb.be/doc/ts/publications/wp/wp396en.pdf)
+
+### [A benchmark of expert-level academic questions to assess AI capabilities](https://doi.org/10.1038/s41586-025-09962-4)
+
+Center for AI Safety, Scale AI and HLE Contributors Consortium
+
+Nature, 649, 1139–1146 · 2026 · Brecht F. Verbeken: contributor to the HLE consortium
+
+[Preprint PDF](https://arxiv.org/pdf/2501.14249) [arXiv record](https://arxiv.org/abs/2501.14249)
+
+## Applied and institutional work
+[Project details](https://bfmave.github.io/projects.html)
+
+- **[AI-supported science for policy.](https://bfmave.github.io/projects.html#jrc) ** Through a VUB collaboration with the European Commission’s Joint Research Centre, I was involved in developing evaluation templates and contributed to a validation protocol for AI-supported research outputs.
+
+- **[Public-sector AI review.](https://bfmave.github.io/projects.html#fari) ** For FARI within AI4Gov-X Accelerate, I co-authored an internal review of AI4Scale requirements and prototype validation, addressing feasibility, deployment and governance.
+
+- **Public investment under uncertainty.** I led a [scenario-based study of Brussels Metro 3](https://arxiv.org/abs/2509.22223), examining accessibility and its distribution across the city.
+
+- **[Course information sheets.](https://bfmave.github.io/projects.html#course-sheets) ** I led the technical implementation of a reusable LLM-assisted classification workflow at VUB, combining human validation and quality controls. [Paper](https://arxiv.org/abs/2603.13562).
+
+- **[Data analysis and modelling.](https://bfmave.github.io/projects.html#greening) ** In the context of greening and CO₂ neutrality.
+
+## Media and public writing
+[All media](https://bfmave.github.io/media.html)
+
+- [De wereld heeft er een superhacker bij, nu nog leren hoe we daarmee omgaan](https://www.standaard.be/opinies/de-wereld-heeft-er-een-superhacker-bij-nu-nog-leren-hoe-we-daarmee-omgaan/159873818.html)
+De Standaard · Opinion article with Andres Algaba · August 2026
+
+- [Soevereiniteit is geen Europese chatbot](https://www.standaard.be/opinies/soevereiniteit-is-geen-europese-chatbot/157225846.html)
+De Standaard · Opinion article with Vincent Ginis and Andres Algaba · June 2026
+
+- [ChatGPT can provide original mathematical proofs, researchers show](https://phys.org/news/2026-03-chatgpt-mathematical-proofs.html)
+Phys.org · Research coverage from VUB · March 2026
+
+- [Onderzoekers over metro 3: ‘Amper voordelen bij halve aanleg’](https://www.bruzz.be/actua/mobiliteit/onderzoekers-over-metro-3-amper-voordelen-bij-halve-aanleg-2025-10-03)
+BRUZZ · Research coverage and expert comments · October 2025
+
+## Mathematics
+
+Mathematics is a lasting passion. My main mathematical research line concerns Markov chains and stochastic matrices, particularly their eigenvalues and spectral regions. It also connects to my work on semi-Markov models and applications in manpower planning.
+
+I occasionally return to algebra, closer to my [master’s thesis on units in integral group rings](https://bfmave.github.io/research.html#paper-masters-thesis): [group rings](https://bfmave.github.io/research.html#paper-2608.03254), the [Prime Graph Question](https://bfmave.github.io/research.html#paper-2607.29105), and [braces](https://bfmave.github.io/research.html#paper-2608.01884). More recently, a [paper on Ramsey graphs](https://bfmave.github.io/research.html#paper-2610.06081)  has provided another setting in which to explore AI-assisted mathematical research.
+
+A personal project close to my heart is an [illustrated exploration of the Karpelevič theorem](https://bfmave.github.io/karpelevic/), developed with Vincent Ginis. It brings together a proof, geometric explanations and numerical illustrations of the possible eigenvalues of stochastic matrices. I see this kind of exposition as a service to the mathematical community—work that, in my view, is too often undervalued in science.
+
+[Project website](https://bfmave.github.io/karpelevic/) [Current paper](https://arxiv.org/abs/2609.26058) [Other mathematical papers](https://bfmave.github.io/research.html?topic=mathematics)
+
+## Teaching and academic service
+
+I have taught at university level since 2018. I currently teach Mathematics II for Business Economics at VUB, with responsibility for the course and its assessment. I have supervised more than 25 master’s theses on a range of economics and business topics.
+
+I also serve on PhD advisory committees, contributing to the assessment of doctoral research progress. At the Data Analytics Lab, I have HR and recruitment responsibilities, including candidate selection.
+
+## Background
+
+My training combines fundamental mathematics with applied economic sciences. I work with Python, R and LaTeX.
+
+[Curriculum vitae →](https://bfmave.github.io/cv.html)
+
+[brecht.verbeken@vub.be](mailto:brecht.verbeken@vub.be)
+
+Data Analytics Lab · Vrije Universiteit Brussel
+Brussels, Belgium
+
+[*](https://bfmave.github.io/#name-note-ref)  My full name is Brecht Felix Marc Antoon Verbeken. I used to go by Brecht Verbeken, but started adding F. in publications after discovering a [namesake](https://research.ugent.be/web/person/brecht-verbeken-0/nl)  who went to the same secondary school, won mathematics-olympiad prizes and also studied mathematics. He is now a PhD student at Ghent University. Perhaps one day we’ll write a Verbeken–Verbeken paper—with shared first authorship, naturally.
+
+
+---
+
+Source: https://bfmave.github.io/research.html
+
+Papers and publications
+
+# Research
+
+My economics work includes forecasting, decision-making under uncertainty, public investment and [ergodicity economics](https://bfmave.github.io/#ergodicity-economics). I also work on AI evaluation and quantitative methods. My mathematical research centres on Markov chains and stochastic matrices, alongside work on group rings and braces and recent explorations of AI-assisted research in Ramsey theory.
+
+More recently, my interests have turned to the economic impact of AI, particularly its effects on scientific discovery and innovation.
+
+I have also served as an examiner, supervisor or co-supervisor for master’s theses spanning a wide range of economics and business topics.
+
+[Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en) [arXiv](https://arxiv.org/search/?searchtype=author&query=Verbeken%2C+B&abstracts=show&order=-announced_date_first&size=50) [VUB research profile](https://researchportal.vub.be/en/persons/brecht-verbeken/) [BibTeX](https://bfmave.github.io/assets/publications.bib)
+
+AllEconomicsAI & scienceMethodsMathematics
+
+## Journal articles
+
+### [The Type III realisation conjecture of Kirkland and Šmigoc](https://doi.org/10.1016/j.laa.2026.10.002)
+
+**Brecht F. Verbeken**, Vincent Ginis
+
+Linear Algebra and its Applications, 754, 65–81 · 2027
+
+[Preprint PDF](https://arxiv.org/pdf/2607.27219) [arXiv record](https://arxiv.org/abs/2607.27219)
+
+### [How deep do large language models internalize scientific literature and citation practices?](https://doi.org/10.1162/qss.a.502)
+
+Andres Algaba, Vincent Holst, Floriano Tori, Melika Mobin, **Brecht F. Verbeken**, Sylvia Wenmackers, Vincent Ginis
+
+Quantitative Science Studies, 7, 1306–1321 · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2504.02767) [arXiv record](https://arxiv.org/abs/2504.02767) Overview
+
+We study how language models use scientific literature and citations, and what their patterns of recall imply for scientific work.
+
+### [Lexical hints of accuracy in LLM reasoning chains](https://doi.org/10.1038/s41598-026-55000-2)
+
+Arne Vanhoyweghen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
+
+Scientific Reports, 16, article 25593 · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2508.15842) [arXiv record](https://arxiv.org/abs/2508.15842) Overview
+
+We examine whether features of model-generated reasoning traces help predict answer accuracy, including how these signals change across benchmarks.
+
+### [Eigenvalue regions and realising monotone stochastic matrices](https://doi.org/10.13001/ela.2026.10159)
+
+Brando Vagenende, **Brecht F. Verbeken**, Marie-Anne Guerry
+
+The Electronic Journal of Linear Algebra, 42, 387–398 · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2502.01314) [arXiv record](https://arxiv.org/abs/2502.01314)
+
+### [A benchmark of expert-level academic questions to assess AI capabilities](https://doi.org/10.1038/s41586-025-09962-4)
+
+Center for AI Safety, Scale AI and HLE Contributors Consortium
+
+Nature, 649, 1139–1146 · 2026 · Brecht F. Verbeken: contributor to the HLE consortium
+
+[Preprint PDF](https://arxiv.org/pdf/2501.14249) [arXiv record](https://arxiv.org/abs/2501.14249)
+
+### [Star-Convexity of the Eigenvalue Regions for Stochastic Matrices and Certain Subclasses](https://doi.org/10.3390/math13122038)
+
+Brando Vagenende, **Brecht F. Verbeken**, Marie-Anne Guerry
+
+Mathematics, 13(12), 2038 · 2025
+
+[PDF](https://www.mdpi.com/2227-7390/13/12/2038/pdf)
+
+### [State Re-union Maintainability for Semi-Markov Models in Manpower Planning](https://doi.org/10.1007/s11009-025-10174-6)
+
+**Brecht F. Verbeken**, Marie-Anne Guerry
+
+Methodology and Computing in Applied Probability, 27, article 43 · 2025
+
+[Preprint PDF](https://arxiv.org/pdf/2306.02088) [arXiv record](https://arxiv.org/abs/2306.02088)
+
+### [Uplift Model Evaluation with Ordinal Dominance Graphs](https://www.jmlr.org/papers/v26/22-1455.html)
+
+**Brecht F. Verbeken**, Marie-Anne Guerry, Wouter Verbeke, Sam Verboven
+
+Journal of Machine Learning Research, 26(90), 1–56 · 2025
+
+[PDF](https://www.jmlr.org/papers/volume26/22-1455/22-1455.pdf) Overview
+
+We develop and study metrics for evaluating models that rank individuals by treatment effects, with confidence bounds, simulation and empirical comparisons.
+
+### [Attainability for Markov and Semi-Markov Chains](https://doi.org/10.3390/math12081227)
+
+**Brecht F. Verbeken**, Marie-Anne Guerry
+
+Mathematics, 12(8), 1227 · 2024
+
+[PDF](https://www.mdpi.com/2227-7390/12/8/1227/pdf)
+
+### [Daily news sentiment and monthly surveys: A mixed-frequency dynamic factor model for nowcasting consumer confidence](https://doi.org/10.1016/j.ijforecast.2021.11.005)
+
+Andres Algaba, Samuel Borms, Kris Boudt, **Brecht F. Verbeken**
+
+International Journal of Forecasting, 39(1), 266–278 · 2023
+
+[Working-paper PDF](https://www.nbb.be/doc/ts/publications/wp/wp396en.pdf) Overview
+
+We combine daily economic-news sentiment with monthly survey data to nowcast Belgian consumer confidence using a mixed-frequency dynamic factor model.
+
+### [The influence of ergodicity on risk affinity of timed and non-timed respondents](https://doi.org/10.1038/s41598-022-07613-6)
+
+Arne Vanhoyweghen, **Brecht F. Verbeken**, Cathy Macharis, Vincent Ginis
+
+Scientific Reports, 12, article 3744 · 2022
+
+[PDF](https://www.nature.com/articles/s41598-022-07613-6.pdf) Overview
+
+We study decision-making under repeated risk, examining whether choices reflect expected values or outcomes over time and how time pressure affects risk affinity.
+
+### [Discrete Time Hybrid Semi-Markov Models in Manpower Planning](https://doi.org/10.3390/math9141681)
+
+**Brecht F. Verbeken**, Marie-Anne Guerry
+
+Mathematics, 9(14), 1681 · 2021
+
+[PDF](https://www.mdpi.com/2227-7390/9/14/1681/pdf)
+
+## Working papers
+
+### [Big-Big-SycoBench: A Benchmark to Detect Sycophancy Through Model Responses to Valid vs. Invalid Arguments](https://arxiv.org/abs/2610.15634)
+
+Marthe Ballon, Arne Vanhoyweghen, Seorin Kim, Francesca Carlon, Lynn Delcon, Melika Mobini, Vincent Holst, Lukas Van de Voorde, Tibo Vanleke, Mathieu Louis, Bert Verbruggen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
+
+Working paper · 2026 · arXiv:2610.15634
+
+[PDF](https://arxiv.org/pdf/2610.15634) Overview
+
+We evaluate whether language models respond to valid criticism while resisting invalid pressure, accounting for variability in their original judgements.
+
+### [Thinking Like a Scientist? A Structural Study of LLM-Generated Research Methods](https://arxiv.org/abs/2606.26130)
+
+Francesca Carlon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
+
+Working paper · 2026 · arXiv:2606.26130
+
+[PDF](https://arxiv.org/pdf/2606.26130) Overview
+
+We compare LLM-generated research-method suggestions with the methods reported in computer-science papers, examining which choices become more or less prominent.
+
+### [Neutrino Fingerprints: Image-Based Encodings of IceCube Events for CNN Direction Reconstruction](https://arxiv.org/abs/2606.02788)
+
+Floriano Tori, **Brecht F. Verbeken**, Vincent Ginis
+
+Working paper · 2026 · arXiv:2606.02788
+
+[PDF](https://arxiv.org/pdf/2606.02788)
+
+### [Scalable Classification of Course Information Sheets Using Large Language Models: A Reusable Institutional Method for Academic Quality Assurance](https://arxiv.org/abs/2603.13562)
+
+**Brecht F. Verbeken**, Joke Van den Broeck, Inge De Cleyn, Steven Van Luchene, Nadine Engels, Andres Algaba, Vincent Ginis
+
+Working paper · 2026 · arXiv:2603.13562
+
+[PDF](https://arxiv.org/pdf/2603.13562) Overview
+
+We develop a reusable institutional workflow for classifying course information sheets with LLMs, supported by human validation and documented quality controls.
+
+### [Human-in-the-Loop LLM Grading for Handwritten Mathematics Assessments](https://arxiv.org/abs/2603.13083)
+
+Arne Vanhoyweghen, Vincent Holst, Melika Mobini, Lukas Van de Voorde, Tibo Vanleke, Bert Verbruggen, **Brecht F. Verbeken**, Andres Algaba, Sam Verboven, Marie-Anne Guerry, Filip Van Droogenbroeck, Vincent Ginis
+
+Working paper · 2026 · arXiv:2603.13083
+
+[PDF](https://arxiv.org/pdf/2603.13083)
+
+### [Early Evidence of Vibe-Proving with Consumer LLMs: A Case Study on Spectral Region Characterization with ChatGPT-5.2 (Thinking)](https://arxiv.org/abs/2602.18918)
+
+**Brecht F. Verbeken**, Brando Vagenende, Marie-Anne Guerry, Andres Algaba, Vincent Ginis
+
+Working paper · 2026 · arXiv:2602.18918
+
+[PDF](https://arxiv.org/pdf/2602.18918) Overview
+
+A documented case study of AI-assisted mathematical proof development, following generation, critical review and repair, with human mathematical verification.
+
+### [Probing the Trajectories of Reasoning Traces in Large Language Models](https://arxiv.org/abs/2601.23163)
+
+Marthe Ballon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
+
+Working paper · 2026 · arXiv:2601.23163
+
+[PDF](https://arxiv.org/pdf/2601.23163)
+
+### [Benchmarks Saturate When The Model Gets Smarter Than The Judge](https://arxiv.org/abs/2601.19532)
+
+Marthe Ballon, Andres Algaba, **Brecht F. Verbeken**, Vincent Ginis
+
+Working paper · 2026 · arXiv:2601.19532
+
+[PDF](https://arxiv.org/pdf/2601.19532) Overview
+
+We study how dataset errors and model-based judging affect measured AI performance, distinguishing benchmark saturation from limits in the evaluator.
+
+### [Estimating problem difficulty without ground truth using Large Language Model comparisons](https://arxiv.org/abs/2512.14220)
+
+Marthe Ballon, Andres Algaba, **Brecht F. Verbeken**, Vincent Ginis
+
+Working paper · 2025 · arXiv:2512.14220
+
+[PDF](https://arxiv.org/pdf/2512.14220)
+
+### [Metro 3 in Brussels under uncertainty: scenario-based public transport accessibility analysis](https://arxiv.org/abs/2509.22223)
+
+**Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
+
+Working paper · 2025 · arXiv:2509.22223
+
+[PDF](https://arxiv.org/pdf/2509.22223) Overview
+
+We compare public-transport accessibility under alternative Metro 3 scenarios in Brussels, examining geographical differences and sensitivity to timing.
+
+## Forthcoming work
+
+### Rational Dyck Excursion Counts as Sums of Generalized Fuss–Catalan Products
+
+**Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
+
+To appear
+Overview
+
+Counting returning walks with unequal upward and downward steps through products of generalised Fuss–Catalan coefficients. This mathematical work arose from our collaboration on ergodicity economics.
+
+### From Distributional Wealth Accounts to inequality dynamics
+
+[Arne Vanhoyweghen](https://data.research.vub.be/arne-vanhoyweghen0), **Brecht F. Verbeken**, Vincent Ginis, [Nabil Bouamara](https://www.nbb.be/en/publications-research/publications/authors/nabil-bouamara)
+
+Manuscript in preparation · 2026 · Abstract submitted to NTTS 2027
+Overview
+
+An analysis of wealth-inequality dynamics using quarterly Distributional Wealth Accounts, combining accounting decomposition with modelling of wealth growth and redistribution.
+
+## Mathematical working papers
+
+### [Polynomial families of incident flags and explicit off-diagonal Ramsey graphs](https://arxiv.org/abs/2610.06081)
+
+**Brecht F. Verbeken**
+
+Working paper · 2026 · arXiv:2610.06081
+
+[PDF](https://arxiv.org/pdf/2610.06081)
+
+### [The Eigenvalue Region of a Family of Markov Chains with Randomness Confined to Two States](https://arxiv.org/abs/2609.31768)
+
+**Brecht F. Verbeken**, Vincent Ginis
+
+Working paper · 2026 · arXiv:2609.31768
+
+[PDF](https://arxiv.org/pdf/2609.31768)
+
+### [Cyclic-by-abelian counterexamples to the second and third Zassenhaus conjectures](https://arxiv.org/abs/2608.03254)
+
+**Brecht F. Verbeken**
+
+Working paper · 2026 · arXiv:2608.03254
+
+[PDF](https://arxiv.org/pdf/2608.03254)
+
+### [Powerful multiplicative groups do not force right nilpotence in finite braces](https://arxiv.org/abs/2608.01884)
+
+**Brecht F. Verbeken**
+
+Working paper · 2026 · arXiv:2608.01884
+
+[PDF](https://arxiv.org/pdf/2608.01884)
+
+### [The N-Prime Graph Question is equivalent to the Prime Graph Question](https://arxiv.org/abs/2607.29105)
+
+**Brecht F. Verbeken**
+
+Working paper · 2026 · arXiv:2607.29105
+
+[PDF](https://arxiv.org/pdf/2607.29105)
+
+### [A proof of the Karpelevič theorem via invariant polygons](https://arxiv.org/abs/2609.26058)
+
+**Brecht F. Verbeken**, Vincent Ginis
+
+Working paper · 2026 · arXiv:2609.26058
+
+[PDF](https://arxiv.org/pdf/2609.26058) [Illustrated project](https://bfmave.github.io/karpelevic/) Overview
+
+A geometric approach to the possible eigenvalues of stochastic matrices, using invariant polygons to describe and attain the boundary.
+
+### [Stochastic realisers of non-degenerate full-degree Type II reduced Ito polynomials](https://arxiv.org/abs/2609.26055)
+
+**Brecht F. Verbeken**, Vincent Ginis
+
+Working paper · 2026 · arXiv:2609.26055
+
+[PDF](https://arxiv.org/pdf/2609.26055)
+
+### [On the Spectral Region of n-Cycle Stochastic Matrices](https://arxiv.org/abs/2606.10143)
+
+**Brecht F. Verbeken**, Vincent Ginis
+
+Working paper · 2026 · arXiv:2606.10143
+
+[PDF](https://arxiv.org/pdf/2606.10143)
+
+### [Nonnegativity of the second largest eigenvalue of 4 × 4 tridiagonal stochastic matrices](https://arxiv.org/abs/2605.07591)
+
+Brando Vagenende, **Brecht F. Verbeken**, Marie-Anne Guerry
+
+Working paper · 2026 · arXiv:2605.07591
+
+[PDF](https://arxiv.org/pdf/2605.07591)
+
+### [On the Spectral Region of 4-Cycle Stochastic Matrices](https://arxiv.org/abs/2605.06743)
+
+Brando Vagenende, **Brecht F. Verbeken**, Andres Algaba, Marie-Anne Guerry
+
+Working paper · 2026 · arXiv:2605.06743
+
+[PDF](https://arxiv.org/pdf/2605.06743)
+
+## Theses
+
+### [On Models and Metrics: Improving Stochastic Model Performance in Manpower Planning](https://researchportal.vub.be/en/publications/on-models-and-metrics-improving-stochastic-model-performance-in-m/)
+
+**Brecht F. Verbeken**
+
+PhD thesis · Vrije Universiteit Brussel, 133 pages · 2024
+
+[PDF](https://cris.vub.be/ws/portalfiles/portal/114345140/Brecht_Verbeken_PhD_Thesis_Final.pdf) Overview
+
+Doctoral research on stochastic model selection and evaluation in manpower planning, including Markov and semi-Markov models, attainability and uplift-model evaluation.
+
+### [Units in integral group rings: the Zassenhaus conjecture and the prime graph question with the use of the HeLP-method](https://researchportal.vub.be/en/publications/units-in-integral-group-rings-the-zassenhaus-conjecture-and-the-p/)
+
+**Brecht F. Verbeken**
+
+Master’s thesis · Vrije Universiteit Brussel, 100 pages · 2018
+
+[Google Scholar record](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MC0hy74AAAAJ&citation_for_view=MC0hy74AAAAJ:ufrVoPGSRksC) Overview
+
+Master’s thesis on units in integral group rings, the Zassenhaus conjecture and the Prime Graph Question using the HeLP method.
+
+
+---
+
+Source: https://bfmave.github.io/projects.html
+
+# Projects
+
+Research and institutional work connecting economics, data science and AI.
+
+## AI and scientific discovery
+
+Research interests · Economics of AI and innovation
+
+More recently, I have become interested in the economic impact of AI on scientific discovery and innovation: which parts of research become faster, which questions receive attention, and how verification costs affect the value of automation.
+
+Colleagues at VUB, led by Andres Algaba, are exploring this line of work through The Rate and Direction of Automated Science, a project selected for OpenAI’s Economic Research Exchange.
+
+[The team’s automated-science project](https://press.vub.ac.be/onderzoeksgroep-van-vub-geselecteerd-voor-internationaal-onderzoeksprogramma-van-openai) [Related working paper: LLM-generated research methods](https://arxiv.org/abs/2606.26130)
+
+## Evaluating AI-supported science for policy
+
+VUB collaboration with the European Commission’s Joint Research Centre (JRC)
+
+AI-supported research tools can produce useful policy-facing material, but their outputs need to be assessed for scientific accuracy, traceability and critical errors. Through a VUB collaboration with the JRC, I was involved in developing evaluation templates and contributed to a validation protocol for AI-supported research outputs.
+
+The work covers scientific accuracy, source traceability, critical failures, reviewer agreement and workflow effort. It connects my interests in model evaluation and human validation with the practical demands of research used in public policy.
+
+[JRC’s work on AI and data (institutional context)](https://joint-research-centre.ec.europa.eu/what-we-do/scientific-portfolios/ai-and-data_en)
+
+## Public-sector AI review: FARI / AI4Gov-X
+
+FARI · AI4Gov-X Accelerate · Public-sector AI and digital governance
+
+For FARI within AI4Gov-X Accelerate, I co-authored an internal review of AI4Scale requirements and prototype validation. The review addressed feasibility, prioritisation, deployment, governance and process ownership.
+
+AI4Gov-X is co-funded by the European Union’s Digital Europe Programme and supports skills, experimentation and digital governance in the public sector. FARI, the joint VUB–ULB AI for the Common Good Institute, leads work on the AI4Scale platform and the AI4Engine framework.
+
+[FARI’s project description](https://www.fari.brussels/research-and-innovation/project/ai4gov) [AI4Gov-X project website](https://ai4gov-x.eu/)
+
+## Course information sheets and institutional AI adoption
+
+Vrije Universiteit Brussel · Academic quality assurance
+
+Higher education institutions need to understand how generative AI affects course design and assessment. I led the technical implementation of a reusable LLM-assisted workflow for classifying course information sheets at VUB.
+
+The initial production scan covered 4,684 course information sheets. The approach combines a pilot phase, prompt development and model comparison, human validation, automated reporting and a later repeat scan. The emphasis is on a method that an institution can inspect, validate and reuse.
+
+[Working paper](https://arxiv.org/abs/2603.13562) [Paper PDF](https://arxiv.org/pdf/2603.13562)
+
+## Brussels Metro 3 under uncertainty
+
+Public investment · Transport accessibility · Distributional analysis
+
+Public investment decisions require more than an average effect. I led a study comparing transport accessibility under current, partial and full Metro 3 scenarios, using official public-transport schedules and open-map data.
+
+The analysis examines geographical differences and sensitivity to departure timing. The work connects quantitative modelling with questions about who benefits from infrastructure investment and how uncertainty should enter public debate.
+
+[Working paper](https://arxiv.org/abs/2509.22223) [Paper PDF](https://arxiv.org/pdf/2509.22223) [BRUZZ coverage](https://www.bruzz.be/actua/mobiliteit/onderzoekers-over-metro-3-amper-voordelen-bij-halve-aanleg-2025-10-03)
+
+## Data analysis and modelling
+
+Greening · CO₂ neutrality
+
+Data analysis and modelling in the context of greening and CO₂ neutrality.
+
+
+---
+
+Source: https://bfmave.github.io/media.html
+
+# Media and public writing
+
+Opinion articles and explainers I co-wrote, reporting on our research, and coverage of related projects.
+
+## Opinion articles and explainers
+
+### [De wereld heeft er een superhacker bij, nu nog leren hoe we daarmee omgaan](https://www.standaard.be/opinies/de-wereld-heeft-er-een-superhacker-bij-nu-nog-leren-hoe-we-daarmee-omgaan/159873818.html)
+
+De Standaard · August 2026 · Opinion article
+
+Andres Algaba, Brecht F. Verbeken
+
+On AI agents, cybersecurity and the limits of almost-complete safeguards.
+
+[English version at VUB](https://www.vub.be/en/news/ai-agents-and-cybersecurity-almost-safe-isnt-safe-enough)
+
+### [Soevereiniteit is geen Europese chatbot](https://www.standaard.be/opinies/soevereiniteit-is-geen-europese-chatbot/157225846.html)
+
+De Standaard · June 2026 · Opinion article
+
+Vincent Ginis, Andres Algaba, Brecht F. Verbeken
+
+On European AI sovereignty, technological dependence and access to advanced models.
+
+[English version at VUB](https://www.vub.be/en/news/sovereignty-is-not-european-chatbot)
+
+### [Is Humanity’s Last Exam echt de ultieme beproeving van AI?](https://www.eoswetenschap.eu/technologie/humanitys-last-exam-echt-de-ultieme-beproeving-van-ai)
+
+Eos Wetenschap · 18 February 2025 · Science explainer
+
+Andres Algaba, Brecht F. Verbeken, Vincent Ginis
+
+On the difficulty of building demanding AI benchmarks and verifying answers at the frontier of human knowledge.
+
+### [Hoe gaan we om met technologie die ons intellectueel voorbijstreeft?](https://www.standaard.be/opinies/hoe-gaan-we-om-met-technologie-die-ons-intellectueel-voorbijstreeft/36225623.html)
+
+De Standaard · 28 January 2025 · Opinion article
+
+Vincent Ginis, Andres Algaba, Brecht F. Verbeken
+
+On AI capabilities, Humanity’s Last Exam and the implications for human intellectual work.
+
+[English version at VUB](https://www.vub.be/en/news/hoe-gaan-we-om-met-technologie-die-ons-intellectueel-voorbijstreeft)
+
+## Research coverage
+
+### [ChatGPT can provide original mathematical proofs, researchers show](https://phys.org/news/2026-03-chatgpt-mathematical-proofs.html)
+
+Phys.org · 16 March 2026 · Research coverage · VUB press release
+
+Frans Steenhoudt
+
+Coverage of our AI-assisted mathematical proof case study, including comments from me and my colleagues.
+
+[University release](https://www.vub.be/en/news/chatgpt-can-autonomously-provide-mathematical-proofs)
+
+### ['월 20달러' 챗GPT로 수학 난제 풀었다…'바이브 증명'의 충격적 실험](https://zdnet.co.kr/view/?no=20260226221839)
+
+ZDNet Korea · 26 February 2026 · Research coverage · AI-assisted · Korean
+
+AI Editor
+
+Korean-language coverage of our case study on AI-assisted mathematical proof development. The article names Brecht F. Verbeken and links directly to our paper (arXiv:2602.18918). The outlet identifies the piece as AI-assisted reporting, supplied through AI Matters.
+
+### [Onderzoekers over metro 3: ‘Amper voordelen bij halve aanleg’](https://www.bruzz.be/actua/mobiliteit/onderzoekers-over-metro-3-amper-voordelen-bij-halve-aanleg-2025-10-03)
+
+BRUZZ · 3 October 2025 · Research coverage and expert comments
+
+Emmanuel Vanbrussel
+
+Reporting on our Brussels Metro 3 accessibility study and its implications for partial and full implementation.
+
+## Project announcements and coverage
+
+### [Onderzoeksgroep van VUB geselecteerd voor internationaal onderzoeksprogramma van OpenAI](https://press.vub.ac.be/onderzoeksgroep-van-vub-geselecteerd-voor-internationaal-onderzoeksprogramma-van-openai)
+
+VUB Press · 31 August 2026 · University announcement
+
+The university’s announcement of The Rate and Direction of Automated Science and its selection for the Economic Research Exchange.
+
+### [La VUB sélectionnée par OpenAI pour mesurer l’impact de l’IA sur l’innovation scientifique](https://www.lecho.be/entreprises/tech-science/la-vub-selectionnee-par-openai-pour-mesurer-l-impact-de-l-ia-sur-l-innovation-scientifique/10684099.html)
+
+L’Echo · August 2026 · Project coverage · French
+
+Coverage of The Rate and Direction of Automated Science, a project led by Andres Algaba and colleagues at VUB, on a topic closely related to my research interests.
+
+
+---
+
+Source: https://bfmave.github.io/cv.html
+
+Curriculum vitae · 15 October 2026
+
+# Brecht F. Verbeken
+
+Economics · Data science · Artificial intelligence
+
+Vrije Universiteit Brussel · Brussels, Belgium
+[Download CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf)
+
+## Profile
+
+I am an economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI. More recently, I have become particularly interested in the economic impact of AI and its role in scientific discovery and innovation. My research spans economic forecasting, model evaluation and AI in mathematics and science.
+
+## Appointments
+
+- 2025–present
+
+### Guest Professor (10%)
+
+Vrije Universiteit Brussel
+
+Course holder for Mathematics II for Business Economics (6 ECTS); teaching, assessment and master’s-thesis supervision.
+
+- 2024–present
+
+### Postdoctoral Researcher (90%)
+
+Vrije Universiteit Brussel
+
+Research in model evaluation, AI in science and mathematics, and stochastic systems; institutional AI workflows and interdisciplinary collaboration.
+
+- 2022–2024
+
+### Research Associate
+
+Vrije Universiteit Brussel
+
+Research on uplift-model evaluation and semi-Markov processes; mathematics teaching and thesis supervision.
+
+- 2018–2022
+
+### Doctoral Researcher
+
+Vrije Universiteit Brussel
+
+Stochastic models for manpower planning; collaboration on economic nowcasting and ergodicity economics; teaching duties.
+
+## Education
+
+- 2024
+
+### PhD in Applied Economic Sciences
+
+Vrije Universiteit Brussel · Business Engineering
+
+On Models and Metrics: Improving Stochastic Model Performance in Manpower Planning.
+
+- 2018
+
+### Master of Mathematics
+
+Vrije Universiteit Brussel / University of Antwerp
+
+Fundamental Mathematics.
+
+- 2016
+
+### Bachelor of Mathematics
+
+Vrije Universiteit Brussel
+
+## Selected projects
+
+- **AI and scientific discovery.** Interested in how AI changes the pace and direction of knowledge production, the division of work between researchers and AI, and verification costs.
+
+- **AI-supported science for policy.** Through a VUB collaboration with the JRC, I was involved in developing evaluation templates and contributed to a validation protocol for AI-supported research outputs.
+
+- **FARI / AI4Gov-X.** Co-authored an internal review of AI4Scale requirements and prototype validation, covering feasibility, prioritisation, deployment, governance and process ownership.
+
+- **Brussels Metro 3.** Led scenario-based public-transport accessibility research using official transport and open-map data.
+
+- **Institutional AI adoption.** Technical implementation lead for LLM-assisted classification of an initial 4,684 course information sheets, combining human validation and quality controls.
+
+- **Mathematics and AI-assisted discovery.** Research on stochastic matrices and spectral regions; an illustrated [Karpelevič project](https://bfmave.github.io/karpelevic/)  and a documented case study of AI-assisted proof development.
+
+## Selected publications and working papers
+[All papers →](https://bfmave.github.io/research.html)
+
+### [Lexical hints of accuracy in LLM reasoning chains](https://doi.org/10.1038/s41598-026-55000-2)
+
+Arne Vanhoyweghen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
+
+Scientific Reports, 16, article 25593 · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2508.15842) [arXiv record](https://arxiv.org/abs/2508.15842)
+
+### [Thinking Like a Scientist? A Structural Study of LLM-Generated Research Methods](https://arxiv.org/abs/2606.26130)
+
+Francesca Carlon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
+
+Working paper · 2026 · arXiv:2606.26130
+
+[PDF](https://arxiv.org/pdf/2606.26130)
+
+### [Early Evidence of Vibe-Proving with Consumer LLMs: A Case Study on Spectral Region Characterization with ChatGPT-5.2 (Thinking)](https://arxiv.org/abs/2602.18918)
+
+**Brecht F. Verbeken**, Brando Vagenende, Marie-Anne Guerry, Andres Algaba, Vincent Ginis
+
+Working paper · 2026 · arXiv:2602.18918
+
+[PDF](https://arxiv.org/pdf/2602.18918)
+
+### [Uplift Model Evaluation with Ordinal Dominance Graphs](https://www.jmlr.org/papers/v26/22-1455.html)
+
+**Brecht F. Verbeken**, Marie-Anne Guerry, Wouter Verbeke, Sam Verboven
+
+Journal of Machine Learning Research, 26(90), 1–56 · 2025
+
+[PDF](https://www.jmlr.org/papers/volume26/22-1455/22-1455.pdf)
+
+### [Daily news sentiment and monthly surveys: A mixed-frequency dynamic factor model for nowcasting consumer confidence](https://doi.org/10.1016/j.ijforecast.2021.11.005)
+
+Andres Algaba, Samuel Borms, Kris Boudt, **Brecht F. Verbeken**
+
+International Journal of Forecasting, 39(1), 266–278 · 2023
+
+[Working-paper PDF](https://www.nbb.be/doc/ts/publications/wp/wp396en.pdf)
+
+## Methods and tools
+
+**Economic and quantitative analysis**
+Mixed-frequency nowcasting; econometrics; model evaluation; treatment-effect rankings; uncertainty; simulation; stochastic and semi-Markov processes.
+
+**Implementation**
+Python, R, LaTeX; data preparation; textual analysis; APIs and local model workflows; reproducible analytical pipelines.
+
+**Teaching and communication**
+University-level teaching since 2018; course responsibility, assessment, supervision of more than 25 master’s theses on economics and business topics, scientific writing and interdisciplinary collaboration.
+
+## Academic service and recruitment
+
+I serve on PhD advisory committees, contributing to the assessment of doctoral research progress. At the Data Analytics Lab, I have HR and recruitment responsibilities, including candidate selection.
+
+## Languages
+
+Dutch: native. English: C2 listening and reading; C1 speaking and writing. French: C1 listening and reading; B2 speaking; B1 writing. German: A1–A2, depending on skill.
+
+CEFR levels are self-assessed.
+
+## Contact and profiles
+
+[brecht.verbeken@vub.be](mailto:brecht.verbeken@vub.be)
+
+[Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en) [ORCID](https://orcid.org/0000-0002-7506-3298) [VUB research profile](https://researchportal.vub.be/en/persons/brecht-verbeken/) [GitHub](https://github.com/BFMAVE)
