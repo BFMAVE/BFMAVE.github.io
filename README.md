@@ -1,6 +1,6 @@
 # Brecht F. Verbeken — personal website
 
-Public academic website for Brecht F. Verbeken: economics, data science and AI, with mathematics as a personal passion.
+Public academic website for Brecht F. Verbeken: quantitative economics, data science and AI, with mathematics as a personal passion.
 
 Status: publication authorised by Brecht on 15 October 2026. Public site: https://bfmave.github.io/. This repository contains the reviewed website and its generators.
 

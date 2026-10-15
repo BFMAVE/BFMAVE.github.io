@@ -41,13 +41,13 @@ def heading(s):
 def item(title, meta, desc):
     return KeepTogether([para('<b>'+title+'</b>', 'item'), para(meta, 'meta'), para(desc)])
 
-story = [para('Brecht F. Verbeken', 'name'), para('Economics | Data science | Artificial intelligence', 'subtitle'),
+story = [para('Brecht F. Verbeken', 'name'), para('Quantitative economics | Data science | Artificial intelligence', 'subtitle'),
     para('Vrije Universiteit Brussel | Brussels, Belgium<br/>'
          '<link href="mailto:brecht.verbeken@vub.be" color="#183d59">brecht.verbeken@vub.be</link> | '
          f'<link href="{BASE}/" color="#183d59">{SITE_LABEL}</link> | '
          '<link href="https://scholar.google.com/citations?user=MC0hy74AAAAJ&amp;hl=en" color="#183d59">Google Scholar</link>', 'contact'),
     heading('Profile'),
-    para('Economist (PhD) and mathematician (MSc) by training, working as a data scientist and researcher with strong interests in economics and AI. More recently, particularly interested in the economic impact of AI and its role in scientific discovery and innovation. Research experience in consumer-confidence nowcasting, model evaluation and AI in mathematics and science. Combines quantitative methods with institutional projects and reproducible analysis.'),
+    para('Quantitative economist (PhD) and mathematician (MSc) by training, working as a data scientist and researcher with strong interests in economics and AI. More recently, particularly interested in the economic impact of AI and its role in scientific discovery and innovation. Research experience in consumer-confidence nowcasting, model evaluation and AI in mathematics and science. Combines quantitative methods with institutional projects and reproducible analysis.'),
     heading('Appointments'),
     item('Guest Professor (10%)', 'Vrije Universiteit Brussel | September 2025 - present', 'Course holder for Mathematics II for Business Economics (6 ECTS), with responsibility for teaching and assessment; master\'s-thesis supervision.'),
     item('Postdoctoral Researcher (90%)', 'Vrije Universiteit Brussel | September 2024 - present', 'Research in model evaluation, AI capabilities and limitations, AI-assisted mathematics and stochastic systems. Institutional AI workflows, research proposal development and interdisciplinary collaboration.'),

@@ -2,14 +2,14 @@ Curriculum vitae · 15 October 2026
 
 # Brecht F. Verbeken
 
-Economics · Data science · Artificial intelligence
+Quantitative economics · Data science · Artificial intelligence
 
 Vrije Universiteit Brussel · Brussels, Belgium
 [Download CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf)
 
 ## Profile
 
-I am an economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI. More recently, I have become particularly interested in the economic impact of AI and its role in scientific discovery and innovation. My research spans economic forecasting, model evaluation and AI in mathematics and science.
+I am a quantitative economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI. More recently, I have become particularly interested in the economic impact of AI and its role in scientific discovery and innovation. My research spans economic forecasting, model evaluation and AI in mathematics and science.
 
 ## Appointments
 

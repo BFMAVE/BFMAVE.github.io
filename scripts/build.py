@@ -154,7 +154,7 @@ def home_content():
 <section class="intro" aria-labelledby="name">
   <div class="intro-copy">
     <h1 id="name">Brecht F. Verbeken<sup class="name-note-ref"><a id="name-note-ref" href="#name-note" role="doc-noteref" aria-label="About my name">*</a></sup></h1>
-    <p>I am an economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI, with a lasting passion for mathematics.</p>
+    <p>I am a quantitative economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI, with a lasting passion for mathematics.</p>
     <p>I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.</p>
     <p>I am a postdoctoral researcher and guest professor at the <a href="{VUB}">Vrije Universiteit Brussel</a>. More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.</p>
     <blockquote class="epigraph"><p>“I am not a donkey; I don’t have a field.”</p><cite>Falsely(?) attributed to <a href="https://maxweberstudies.org/source/files/MWSJournal/17.2pdfs/Max_Weber_Studies_17.2_LS_FINAL.pdf">Max Weber</a></cite></blockquote>
@@ -398,8 +398,8 @@ def timeline(items):
 
 
 def cv_content():
-    return f'''<div class="page-heading cv-top"><div><p class="eyebrow">Curriculum vitae · {UPDATED}</p><h1>Brecht F. Verbeken</h1><p>Economics · Data science · Artificial intelligence</p><p class="small">Vrije Universiteit Brussel · Brussels, Belgium</p></div><a class="download-link" href="assets/brecht-verbeken-cv.pdf" download>Download CV (PDF)</a></div>
-    <section class="section cv-section"><h2>Profile</h2><p>I am an economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI. More recently, I have become particularly interested in the economic impact of AI and its role in scientific discovery and innovation. My research spans economic forecasting, model evaluation and AI in mathematics and science.</p></section>
+    return f'''<div class="page-heading cv-top"><div><p class="eyebrow">Curriculum vitae · {UPDATED}</p><h1>Brecht F. Verbeken</h1><p>Quantitative economics · Data science · Artificial intelligence</p><p class="small">Vrije Universiteit Brussel · Brussels, Belgium</p></div><a class="download-link" href="assets/brecht-verbeken-cv.pdf" download>Download CV (PDF)</a></div>
+    <section class="section cv-section"><h2>Profile</h2><p>I am a quantitative economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI. More recently, I have become particularly interested in the economic impact of AI and its role in scientific discovery and innovation. My research spans economic forecasting, model evaluation and AI in mathematics and science.</p></section>
     <section class="section cv-section"><h2>Appointments</h2>{timeline(APPOINTMENTS)}</section>
     <section class="section cv-section"><h2>Education</h2>{timeline(EDUCATION)}</section>
     <section class="section cv-section"><h2>Selected projects</h2><ul class="work-list">
@@ -442,11 +442,11 @@ def bibtex():
 
 def build():
     outputs = [
-        ('index.html', 'Economics, data science and AI', home_content(), 'Brecht F. Verbeken: economist (PhD) and mathematician (MSc) by training, data scientist, and researcher on economics, AI and scientific discovery at Vrije Universiteit Brussel.', 'home'),
+        ('index.html', 'Quantitative economics, data science and AI', home_content(), 'Brecht F. Verbeken: quantitative economist (PhD) and mathematician (MSc) by training, data scientist, and researcher on economics, AI and scientific discovery at Vrije Universiteit Brussel.', 'home'),
         ('research.html', 'Research', research_content(), 'Publications and working papers by Brecht F. Verbeken in economics, AI, model evaluation and mathematics.', 'research'),
         ('projects.html', 'Projects', projects_content(), 'Brecht F. Verbeken’s research and institutional work: Greening and CO₂ neutrality with imec, AI and science, JRC collaboration, FARI / AI4Gov-X, course information sheets and Brussels Metro 3.', 'projects'),
         ('media.html', 'Media and public writing', media_content(), 'Brecht F. Verbeken’s opinion articles and research coverage in De Standaard, BRUZZ, Eos Wetenschap, Phys.org and other outlets.', 'media'),
-        ('cv.html', 'Curriculum vitae', cv_content(), 'Curriculum vitae of Brecht F. Verbeken: economics, data science and AI at Vrije Universiteit Brussel.', 'cv'),
+        ('cv.html', 'Curriculum vitae', cv_content(), 'Curriculum vitae of Brecht F. Verbeken: quantitative economist working in data science and AI at Vrije Universiteit Brussel.', 'cv'),
         ('404.html', 'Page not found', '<section class="not-found"><p class="eyebrow">404</p><h1>Page not found</h1><p>This page may have moved. You can return to <a href="./">my homepage</a> or browse <a href="research.html">my research</a>.</p></section>', 'Return to Brecht F. Verbeken’s personal website.', ''),
     ]
     plain_pages = {}
@@ -468,7 +468,7 @@ def build():
         'full_name': 'Brecht Felix Marc Antoon Verbeken',
         'alternate_names': ['Brecht Verbeken', 'Brecht F Verbeken'],
         'website': BASE + '/', 'updated': '2026-10-15', 'location': 'Brussels, Belgium',
-        'description': 'Economist (PhD) and mathematician (MSc) by training; data scientist with strong interests in economics and AI and a passion for mathematics.',
+        'description': 'Quantitative economist (PhD) and mathematician (MSc) by training; data scientist with strong interests in economics and AI and a passion for mathematics.',
         'email': EMAIL, 'orcid': ORCID, 'google_scholar': SCHOLAR, 'vub_profile': VUB,
         'appointments': [{'period': d, 'title': t, 'institution': org, 'description': desc} for d, t, org, desc in APPOINTMENTS],
         'education': [{'year': d, 'degree': t, 'institution': org, 'description': desc} for d, t, org, desc in EDUCATION],
@@ -488,7 +488,7 @@ def build():
     (ROOT / 'data/scholarly-articles.jsonld').write_text(json.dumps({'@context': 'https://schema.org', '@graph': [scholarly_record(p) for p in PAPERS]}, ensure_ascii=False, indent=2) + '\n')
     llms = f'''# Brecht F. Verbeken
 
-> Personal academic website of Brecht F. Verbeken, an economist (PhD) and mathematician (MSc) by training who works as a data scientist, postdoctoral researcher and guest professor at Vrije Universiteit Brussel. Interests: economics and AI; more recently, AI’s economic impact and its role in scientific discovery. Mathematics is also a personal passion.
+> Personal academic website of Brecht F. Verbeken, a quantitative economist (PhD) and mathematician (MSc) by training who works as a data scientist, postdoctoral researcher and guest professor at Vrije Universiteit Brussel. Interests: economics and AI; more recently, AI’s economic impact and its role in scientific discovery. Mathematics is also a personal passion.
 
 Last updated: {UPDATED}. The public HTML is complete without JavaScript. The text and structured records below mirror the visible website.
 
