@@ -175,7 +175,7 @@ def home_content():
 
 <section class="section" id="recent-papers" aria-labelledby="recent-heading">
   <div class="section-heading"><h2 id="recent-heading">Recent and forthcoming work</h2><a href="research.html">All research</a></div>
-    <p>A paper on <em>Sums of Generalized Fuss–Catalan Products</em> — to appear.</p>
+    <p class="forthcoming-note">A paper on <em>Sums of Generalized Fuss–Catalan Products</em> — to appear.</p>
   {paper_list(['wealth-inequality', '2610.15634', '2509.22223'], False)}
 </section>
 
