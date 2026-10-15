@@ -6,14 +6,14 @@ I particularly enjoy bringing people with different specialities together and th
 
 I am a postdoctoral researcher and guest professor at the [Vrije Universiteit Brussel](https://researchportal.vub.be/en/persons/brecht-verbeken/). More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.
 
-[CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en) [ORCID](https://orcid.org/0000-0002-7506-3298) [GitHub](https://github.com/BFMAVE) [brecht.verbeken@vub.be](mailto:brecht.verbeken@vub.be)
-
 “I am not a donkey; I don’t have a field.”
 Falsely(?) attributed to [Max Weber](https://maxweberstudies.org/source/files/MWSJournal/17.2pdfs/Max_Weber_Studies_17.2_LS_FINAL.pdf)
 
 I am always curious about my colleagues’ research. My quantitative background often gives me a way to contribute, and these collaborations have taken me into many different areas. Sometimes this leads to an acknowledgement; sometimes to co-authorship. Perhaps the common thread is helping others move their research forward.
 
 I am proud of the team and colleagues I work with, at the [Data Analytics Lab](https://data.research.vub.be/people)  and beyond. Much of this work reflects our shared effort.
+
+[CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en) [ORCID](https://orcid.org/0000-0002-7506-3298) [GitHub](https://github.com/BFMAVE) [brecht.verbeken@vub.be](mailto:brecht.verbeken@vub.be)
 
 Take citation metrics with a pinch of salt. Measures of scientific impact can be sensitive to [dataset artefacts](https://doi.org/10.1038/s41586-026-10787-y), as shown by [Vincent Holst](https://data.research.vub.be/vincent-holst)  and colleagues.
 

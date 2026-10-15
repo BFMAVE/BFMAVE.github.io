@@ -243,12 +243,16 @@
           "sameAs": "https://orcid.org/0000-0002-7506-3298"
         }
       ],
-      "creativeWorkStatus": "Preprint",
+      "creativeWorkStatus": "Accepted",
       "keywords": [
         "mathematics"
       ],
       "mainEntityOfPage": "https://bfmave.github.io/research.html",
-      "url": "https://arxiv.org/abs/2607.29105",
+      "url": "https://ems.press/journals/adm/articles/forthcoming",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Archiv der Mathematik"
+      },
       "identifier": "arXiv:2607.29105",
       "encoding": {
         "@type": "MediaObject",

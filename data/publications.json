@@ -137,17 +137,20 @@
     "authors": [
       "Brecht F. Verbeken"
     ],
-    "date": "2026-07-31",
-    "updated": "2026-07-31",
+    "date": "2026-10-05",
+    "updated": "2026-10-15",
     "year": 2026,
-    "kind": "working",
-    "venue": "Working paper",
+    "kind": "forthcoming",
+    "venue": "Archiv der Mathematik",
     "topics": [
       "mathematics"
     ],
-    "url": "https://arxiv.org/abs/2607.29105",
+    "url": "https://ems.press/journals/adm/articles/forthcoming",
     "pdf": "https://arxiv.org/pdf/2607.29105",
-    "arxiv": "2607.29105"
+    "arxiv": "2607.29105",
+    "status": "Accepted",
+    "pdf_label": "Preprint PDF",
+    "note": "Accepted 5 October 2026; to appear in Archiv der Mathematik."
   },
   {
     "id": "2609.26058",

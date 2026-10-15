@@ -45,6 +45,8 @@ def paper(p, brief=True, level=3):
     elif p['kind'] == 'forthcoming':
         if p.get('status') == 'In preparation':
             meta += f' · {p["year"]}'
+        elif p.get('status') == 'Accepted':
+            meta += ' · accepted; to appear'
         elif p['venue'] != 'To appear':
             meta += f' · to appear ({p["year"]})'
     else:
@@ -151,10 +153,10 @@ def home_content():
     <p>I am an economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI, with a lasting passion for mathematics.</p>
     <p>I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.</p>
     <p>I am a postdoctoral researcher and guest professor at the <a href="{VUB}">Vrije Universiteit Brussel</a>. More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.</p>
-    <div class="text-links intro-links"><a href="assets/brecht-verbeken-cv.pdf">CV (PDF)</a><a href="{SCHOLAR}">Google Scholar</a><a href="{ORCID}">ORCID</a><a href="https://github.com/BFMAVE">GitHub</a><a href="mailto:{EMAIL}">{EMAIL}</a></div>
     <blockquote class="epigraph"><p>“I am not a donkey; I don’t have a field.”</p><cite>Falsely(?) attributed to <a href="https://maxweberstudies.org/source/files/MWSJournal/17.2pdfs/Max_Weber_Studies_17.2_LS_FINAL.pdf">Max Weber</a></cite></blockquote>
     <p>I am always curious about my colleagues’ research. My quantitative background often gives me a way to contribute, and these collaborations have taken me into many different areas. Sometimes this leads to an acknowledgement; sometimes to co-authorship. Perhaps the common thread is helping others move their research forward.</p>
     <p>I am proud of the team and colleagues I work with, at the <a href="https://data.research.vub.be/people">Data Analytics Lab</a> and beyond. Much of this work reflects our shared effort.</p>
+    <div class="text-links intro-links"><a href="assets/brecht-verbeken-cv.pdf">CV (PDF)</a><a href="{SCHOLAR}">Google Scholar</a><a href="{ORCID}">ORCID</a><a href="https://github.com/BFMAVE">GitHub</a><a href="mailto:{EMAIL}">{EMAIL}</a></div>
     <p class="small metrics-note">Take citation metrics with a pinch of salt. Measures of scientific impact can be sensitive to <a href="https://doi.org/10.1038/s41586-026-10787-y">dataset artefacts</a>, as shown by <a href="https://data.research.vub.be/vincent-holst">Vincent Holst</a> and colleagues.</p>
   </div>
 </section>
@@ -303,6 +305,8 @@ def scholarly_record(p):
         record['isPartOf'] = {'@type': 'Periodical', 'name': p['venue']}
         if len(p['date']) == 10:
             record['datePublished'] = p['date']
+    if p.get('status') == 'Accepted':
+        record['isPartOf'] = {'@type': 'Periodical', 'name': p['venue']}
     if p.get('doi'):
         record['identifier'] = 'https://doi.org/' + p['doi']
     elif p.get('arxiv'):

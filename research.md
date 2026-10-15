@@ -234,6 +234,14 @@ Overview
 
 An analysis of wealth-inequality dynamics using quarterly Distributional Wealth Accounts, combining accounting decomposition with modelling of wealth growth and redistribution.
 
+### [The N-Prime Graph Question is equivalent to the Prime Graph Question](https://ems.press/journals/adm/articles/forthcoming)
+
+**Brecht F. Verbeken**
+
+Archiv der Mathematik · accepted; to appear
+
+[Preprint PDF](https://arxiv.org/pdf/2607.29105) [arXiv record](https://arxiv.org/abs/2607.29105)
+
 ## Mathematical working papers
 
 ### [Polynomial families of incident flags and explicit off-diagonal Ramsey graphs](https://arxiv.org/abs/2610.06081)
@@ -267,14 +275,6 @@ Working paper · 2026 · arXiv:2608.03254
 Working paper · 2026 · arXiv:2608.01884
 
 [PDF](https://arxiv.org/pdf/2608.01884)
-
-### [The N-Prime Graph Question is equivalent to the Prime Graph Question](https://arxiv.org/abs/2607.29105)
-
-**Brecht F. Verbeken**
-
-Working paper · 2026 · arXiv:2607.29105
-
-[PDF](https://arxiv.org/pdf/2607.29105)
 
 ### [A proof of the Karpelevič theorem via invariant polygons](https://arxiv.org/abs/2609.26058)
 
