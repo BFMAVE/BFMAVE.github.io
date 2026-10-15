@@ -6,8 +6,10 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin
 import json
 import os
+import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
+STYLE_VERSION = hashlib.sha256((ROOT / 'assets/styles.css').read_bytes()).hexdigest()[:12]
 BASE = os.environ.get('SITE_BASE_URL', 'http://127.0.0.1:8765').rstrip('/')
 UPDATED = '15 October 2026'
 SCHOLAR = 'https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en'
@@ -119,7 +121,7 @@ def page(title, content, filename, description, active='home'):
   <link rel="canonical" href="{canonical}">
   <link rel="describedby" href="llms.txt" type="text/plain" title="Site guide for agents and language models">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v={STYLE_VERSION}">
   <link rel="alternate" type="text/markdown" href="{filename.replace('.html', '.md')}" title="Plain-text version">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{esc(title)} · Brecht F. Verbeken">
