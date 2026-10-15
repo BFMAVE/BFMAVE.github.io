@@ -451,12 +451,17 @@
           "name": "Vincent Ginis"
         }
       ],
-      "creativeWorkStatus": "Preprint",
+      "creativeWorkStatus": "Published",
       "keywords": [
         "ai"
       ],
       "mainEntityOfPage": "https://bfmave.github.io/research.html",
-      "url": "https://arxiv.org/abs/2606.02788",
+      "url": "https://researchportal.vub.be/en/publications/neutrino-fingerprints-image-based-encodings-of-icecube-events-for/",
+      "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Conference on Physics and AI (PAI26)"
+      },
+      "datePublished": "2026-06-10",
       "identifier": "arXiv:2606.02788",
       "encoding": {
         "@type": "MediaObject",
@@ -733,12 +738,16 @@
           "name": "Andres Algaba"
         }
       ],
-      "creativeWorkStatus": "Preprint",
+      "creativeWorkStatus": "Accepted",
       "keywords": [
         "ai"
       ],
       "mainEntityOfPage": "https://bfmave.github.io/research.html",
-      "url": "https://arxiv.org/abs/2601.23163",
+      "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/139405",
+      "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "NeurIPS 2026"
+      },
       "identifier": "arXiv:2601.23163",
       "encoding": {
         "@type": "MediaObject",

@@ -44,8 +44,15 @@ def main():
         if graph['@context'] != 'https://schema.org': errors.append(f'{name}: unexpected schema context')
     for path in (ROOT / 'data').glob('*.json'):
         json.loads(path.read_text())
+    version = json.loads((ROOT / 'version.json').read_text())['version']
+    assert len(version) == 16 and all(c in '0123456789abcdef' for c in version), 'Invalid site version'
+    for doc in docs.values():
+        text = doc.path.read_text()
+        assert f'<meta name="site-version" content="{version}">' in text, 'Page and release versions differ'
+        assert 'src="assets/site.js?v=' in text, 'Unversioned site script'
     records = json.loads((ROOT / 'data/publications.json').read_text())
     assert len(records) == len({p['id'] for p in records}), 'Duplicate publication record'
+    assert {'paper-' + p['id'] for p in records} == {id for id in docs['research.html'].ids if id.startswith('paper-')}, 'Research page omits or duplicates publication records'
     assert next(p for p in records if p['id'] == 'fuss-catalan')['status'] == 'Work in progress'
     assert not any((ROOT / 'assets').glob('*.jpg')), 'Portrait asset remains'
     assert all((ROOT / f).exists() for f in ['llms.txt', 'llms-full.txt', 'sitemap.xml', 'robots.txt', 'data/profile.json'])

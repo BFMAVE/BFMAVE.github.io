@@ -5,7 +5,7 @@ Curriculum vitae · 15 October 2026
 Quantitative economics · Data science · Artificial intelligence
 
 Vrije Universiteit Brussel · Brussels, Belgium
-[Download CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf)
+[Download CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf?v=7324d681cea0)
 
 ## Profile
 
@@ -86,6 +86,14 @@ Vrije Universiteit Brussel
 ## Selected publications and working papers
 [All papers →](https://bfmave.github.io/research.html)
 
+### [Probing the Trajectories of Reasoning Traces in Large Language Models](https://neurips.cc/virtual/2026/loc/sydney/poster/139405)
+
+Marthe Ballon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
+
+NeurIPS 2026 · accepted; to appear
+
+[Preprint PDF](https://arxiv.org/pdf/2601.23163) [arXiv record](https://arxiv.org/abs/2601.23163)
+
 ### [Lexical hints of accuracy in LLM reasoning chains](https://doi.org/10.1038/s41598-026-55000-2)
 
 Arne Vanhoyweghen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
@@ -93,14 +101,6 @@ Arne Vanhoyweghen, **Brecht F. Verbeken**, Andres Algaba, Vincent Ginis
 Scientific Reports, 16, article 25593 · 2026
 
 [Preprint PDF](https://arxiv.org/pdf/2508.15842) [arXiv record](https://arxiv.org/abs/2508.15842)
-
-### [Thinking Like a Scientist? A Structural Study of LLM-Generated Research Methods](https://arxiv.org/abs/2606.26130)
-
-Francesca Carlon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
-
-Working paper · 2026 · arXiv:2606.26130
-
-[PDF](https://arxiv.org/pdf/2606.26130)
 
 ### [Early Evidence of Vibe-Proving with Consumer LLMs: A Case Study on Spectral Region Characterization with ChatGPT-5.2 (Thinking)](https://arxiv.org/abs/2602.18918)
 

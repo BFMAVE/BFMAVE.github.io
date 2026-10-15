@@ -13,7 +13,7 @@ I am always curious about my colleagues’ research. My quantitative background 
 
 I am proud of the team and colleagues I work with, at the [Data Analytics Lab](https://data.research.vub.be/people)  and beyond. Much of this work reflects our shared effort.
 
-[CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en) [ORCID](https://orcid.org/0000-0002-7506-3298) [GitHub](https://github.com/BFMAVE) [brecht.verbeken@vub.be](mailto:brecht.verbeken@vub.be)
+[CV (PDF)](https://bfmave.github.io/assets/brecht-verbeken-cv.pdf?v=7324d681cea0) [Google Scholar](https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en) [ORCID](https://orcid.org/0000-0002-7506-3298) [GitHub](https://github.com/BFMAVE) [brecht.verbeken@vub.be](mailto:brecht.verbeken@vub.be)
 
 Take citation metrics with a pinch of salt. Measures of scientific impact can be sensitive to [dataset artefacts](https://doi.org/10.1038/s41586-026-10787-y), as shown by [Vincent Holst](https://data.research.vub.be/vincent-holst)  and colleagues.
 
@@ -44,6 +44,14 @@ I have also served as an examiner, supervisor or co-supervisor for master’s th
 **Brecht F. Verbeken**, Arne Vanhoyweghen, Vincent Ginis
 
 Work in progress · 2026
+
+### [Probing the Trajectories of Reasoning Traces in Large Language Models](https://neurips.cc/virtual/2026/loc/sydney/poster/139405)
+
+Marthe Ballon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
+
+NeurIPS 2026 · accepted; to appear
+
+[Preprint PDF](https://arxiv.org/pdf/2601.23163) [arXiv record](https://arxiv.org/abs/2601.23163)
 
 ### From Distributional Wealth Accounts to inequality dynamics
 
@@ -93,6 +101,14 @@ Scientific Reports, 16, article 25593 · 2026
 Journal of Machine Learning Research, 26(90), 1–56 · 2025
 
 [PDF](https://www.jmlr.org/papers/volume26/22-1455/22-1455.pdf)
+
+### [Neutrino Fingerprints: Image-Based Encodings of IceCube Events for CNN Direction Reconstruction](https://researchportal.vub.be/en/publications/neutrino-fingerprints-image-based-encodings-of-icecube-events-for/)
+
+Floriano Tori, **Brecht F. Verbeken**, Vincent Ginis
+
+Conference on Physics and AI (PAI26), Stanford University · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2606.02788) [arXiv record](https://arxiv.org/abs/2606.02788) [Conference](https://events.stanford.edu/event/2026-conference-on-physics-and-ai-pai26)
 
 ### [Daily news sentiment and monthly surveys: A mixed-frequency dynamic factor model for nowcasting consumer confidence](https://doi.org/10.1016/j.ijforecast.2021.11.005)
 

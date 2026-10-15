@@ -262,17 +262,26 @@
       "Brecht F. Verbeken",
       "Vincent Ginis"
     ],
-    "date": "2026-06-01",
-    "updated": "2026-06-01",
+    "date": "2026-06-10",
+    "updated": "2026-10-15",
     "year": 2026,
-    "kind": "working",
-    "venue": "Working paper",
+    "kind": "conference",
+    "venue": "Conference on Physics and AI (PAI26)",
     "topics": [
       "ai"
     ],
-    "url": "https://arxiv.org/abs/2606.02788",
+    "url": "https://researchportal.vub.be/en/publications/neutrino-fingerprints-image-based-encodings-of-icecube-events-for/",
     "pdf": "https://arxiv.org/pdf/2606.02788",
-    "arxiv": "2606.02788"
+    "arxiv": "2606.02788",
+    "status": "Published",
+    "publication_type": "conference",
+    "location": "Stanford University",
+    "pdf_label": "Preprint PDF",
+    "conference_url": "https://events.stanford.edu/event/2026-conference-on-physics-and-ai-pai26",
+    "source_urls": [
+      "https://researchportal.vub.be/en/publications/neutrino-fingerprints-image-based-encodings-of-icecube-events-for/",
+      "https://openreview.net/forum?id=vfiAzJ2wWM"
+    ]
   },
   {
     "id": "2605.07591",
@@ -404,16 +413,25 @@
       "Andres Algaba"
     ],
     "date": "2026-01-30",
-    "updated": "2026-01-30",
+    "updated": "2026-10-15",
     "year": 2026,
-    "kind": "working",
-    "venue": "Working paper",
+    "kind": "forthcoming",
+    "venue": "NeurIPS 2026",
     "topics": [
       "ai"
     ],
-    "url": "https://arxiv.org/abs/2601.23163",
+    "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/139405",
     "pdf": "https://arxiv.org/pdf/2601.23163",
-    "arxiv": "2601.23163"
+    "arxiv": "2601.23163",
+    "status": "Accepted",
+    "publication_type": "conference",
+    "pdf_label": "Preprint PDF",
+    "note": "Accepted at NeurIPS 2026 (poster).",
+    "bibtex_type": "inproceedings",
+    "source_urls": [
+      "https://neurips.cc/virtual/2026/loc/sydney/poster/139405",
+      "https://www.andresalgaba.com/research"
+    ]
   },
   {
     "id": "2601.19532",

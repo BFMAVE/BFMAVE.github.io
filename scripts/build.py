@@ -10,7 +10,16 @@ import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
 STYLE_VERSION = hashlib.sha256((ROOT / 'assets/styles.css').read_bytes()).hexdigest()[:12]
+SCRIPT_VERSION = hashlib.sha256((ROOT / 'assets/site.js').read_bytes()).hexdigest()[:12]
+PDF_VERSION = hashlib.sha256((ROOT / 'assets/brecht-verbeken-cv.pdf').read_bytes()).hexdigest()[:12]
 BASE = os.environ.get('SITE_BASE_URL', 'http://127.0.0.1:8765').rstrip('/')
+# A repeat build has the same version; any public content or asset change has a new one.
+RELEASE_INPUTS = ['scripts/build.py', 'assets/site.js', 'assets/styles.css',
+                  'assets/brecht-verbeken-cv.pdf', 'assets/favicon.svg',
+                  'data/publications.json', 'data/projects.json', 'data/media.json']
+SITE_VERSION = hashlib.sha256(BASE.encode() + b''.join(
+    name.encode() + b'\0' + (ROOT / name).read_bytes() + b'\0'
+    for name in RELEASE_INPUTS)).hexdigest()[:16]
 UPDATED = '15 October 2026'
 SCHOLAR = 'https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en'
 ORCID = 'https://orcid.org/0000-0002-7506-3298'
@@ -65,6 +74,8 @@ def paper(p, brief=True, level=3):
         links.append(f'<a href="https://arxiv.org/abs/{p["arxiv"]}">arXiv record</a>')
     if p.get('scholar'):
         links.append(f'<a href="{esc(p["scholar"])}">Google Scholar record</a>')
+    if p.get('conference_url'):
+        links.append(f'<a href="{esc(p["conference_url"])}">Conference</a>')
     if p['id'] == '2609.26058':
         links.append('<a href="https://bfmave.github.io/karpelevic/">Illustrated project</a>')
     abstract = ''
@@ -110,7 +121,7 @@ def page(title, content, filename, description, active='home'):
     elif filename == 'index.html':
         graph.append({'@type': 'ProfilePage', '@id': canonical, 'mainEntity': {'@id': BASE + '/#person'}, 'dateModified': '2026-10-15'})
     structured = {'@context': 'https://schema.org', '@graph': graph}
-    return f'''<!doctype html>
+    html = f'''<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -118,6 +129,7 @@ def page(title, content, filename, description, active='home'):
   <title>{esc(title)} · Brecht F. Verbeken</title>
   <meta name="description" content="{esc(description)}">
   <meta name="author" content="Brecht F. Verbeken">
+  <meta name="site-version" content="{SITE_VERSION}">
   <meta name="theme-color" content="#183d59">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="canonical" href="{canonical}">
@@ -130,7 +142,7 @@ def page(title, content, filename, description, active='home'):
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{canonical}">
   <script type="application/ld+json">{json.dumps(structured, ensure_ascii=False)}</script>
-  <script src="assets/site.js" defer></script>
+  <script src="assets/site.js?v={SCRIPT_VERSION}" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -145,6 +157,8 @@ def page(title, content, filename, description, active='home'):
 </footer>
 </body></html>
 '''
+    return html.replace('href="assets/brecht-verbeken-cv.pdf"',
+                        f'href="assets/brecht-verbeken-cv.pdf?v={PDF_VERSION}"')
 
 
 
@@ -179,12 +193,12 @@ def home_content():
 
 <section class="section" id="recent-papers" aria-labelledby="recent-heading">
   <div class="section-heading"><h2 id="recent-heading">Recent and forthcoming work</h2><a href="research.html">All research</a></div>
-  {paper_list(['fuss-catalan', 'wealth-inequality', '2610.15634', '2509.22223'], False)}
+  {paper_list(['fuss-catalan', '2601.23163', 'wealth-inequality', '2610.15634', '2509.22223'], False)}
 </section>
 
 <section class="section" id="selected-research" aria-labelledby="selected-heading">
   <div class="section-heading"><h2 id="selected-heading">Selected published papers</h2><a href="research.html#journal">All publications</a></div>
-  {paper_list(['2504.02767', '2508.15842', 'uplift', 'nowcasting', '2501.14249'], False)}
+  {paper_list(['2504.02767', '2508.15842', 'uplift', '2606.02788', 'nowcasting', '2501.14249'], False)}
 </section>
 
 <section class="section" id="applied-work" aria-labelledby="applied-heading">
@@ -234,6 +248,7 @@ def home_content():
 def research_content():
     groups = [
         ('journal', 'Journal articles', [p for p in PAPERS if p['kind'] == 'journal']),
+        ('conference', 'Conference papers', [p for p in PAPERS if p['kind'] == 'conference']),
         ('working', 'Working papers', [p for p in PAPERS if p['kind'] == 'working' and ('mathematics' not in p['topics'] or 'economics' in p['topics'])]),
         ('forthcoming', 'Forthcoming work', [p for p in PAPERS if p['kind'] == 'forthcoming']),
         ('mathematical', 'Mathematical working papers', [p for p in PAPERS if p['kind'] == 'working' and 'mathematics' in p['topics'] and 'economics' not in p['topics']]),
@@ -299,7 +314,7 @@ def scholarly_record(p):
         '@type': 'Thesis' if p['kind'] == 'thesis' else 'ScholarlyArticle', '@id': BASE + '/research.html#paper-' + p['id'],
         'name': p['title'], 'headline': p['title'], 'inLanguage': 'en',
         'author': [author_record(name, p.get('author_urls', {}).get(name)) for name in p['authors']],
-        'creativeWorkStatus': p.get('status') or {'journal': 'Published', 'working': 'Preprint', 'forthcoming': 'Forthcoming', 'thesis': 'Published'}[p['kind']],
+        'creativeWorkStatus': p.get('status') or {'journal': 'Published', 'conference': 'Published', 'working': 'Preprint', 'forthcoming': 'Forthcoming', 'thesis': 'Published'}[p['kind']],
         'keywords': p['topics'], 'mainEntityOfPage': BASE + '/research.html',
     }
     if p.get('url'):
@@ -309,7 +324,10 @@ def scholarly_record(p):
         if len(p['date']) == 10:
             record['datePublished'] = p['date']
     if p.get('status') == 'Accepted':
-        record['isPartOf'] = {'@type': 'Periodical', 'name': p['venue']}
+        record['isPartOf'] = {'@type': 'CreativeWork' if p.get('publication_type') == 'conference' else 'Periodical', 'name': p['venue']}
+    if p['kind'] == 'conference':
+        record['isPartOf'] = {'@type': 'CreativeWork', 'name': p['venue']}
+        record['datePublished'] = p['date']
     if p.get('doi'):
         record['identifier'] = 'https://doi.org/' + p['doi']
     elif p.get('arxiv'):
@@ -409,7 +427,7 @@ def cv_content():
     <li><strong>Brussels Metro 3.</strong> Led scenario-based public-transport accessibility research using official transport and open-map data.</li>
     <li><strong>Institutional AI adoption.</strong> Technical implementation lead for LLM-assisted classification of an initial 4,684 course information sheets, combining human validation and quality controls.</li>
     <li><strong>Mathematics and AI-assisted discovery.</strong> Research on stochastic matrices and spectral regions; an illustrated <a href="https://bfmave.github.io/karpelevic/">Karpelevič project</a> and a documented case study of AI-assisted proof development.</li></ul></section>
-    <section class="section cv-section"><div class="section-heading"><h2>Selected publications and working papers</h2><a href="research.html">All papers →</a></div>{paper_list(['2508.15842','2606.26130','2602.18918','uplift','nowcasting'], False)}</section>
+    <section class="section cv-section"><div class="section-heading"><h2>Selected publications and working papers</h2><a href="research.html">All papers →</a></div>{paper_list(['2601.23163','2508.15842','2602.18918','uplift','nowcasting'], False)}</section>
     <section class="section cv-section"><h2>Methods and tools</h2><dl class="cv-skills"><dt>Economic and quantitative analysis</dt><dd>Mixed-frequency nowcasting; econometrics; model evaluation; treatment-effect rankings; uncertainty; simulation; stochastic and semi-Markov processes.</dd><dt>Implementation</dt><dd>Python, R, LaTeX; data preparation; textual analysis; APIs and local model workflows; reproducible analytical pipelines.</dd><dt>Teaching and communication</dt><dd>University-level teaching since 2018; course responsibility, assessment, supervision of more than 25 master’s theses on economics and business topics, scientific writing and interdisciplinary collaboration.</dd></dl></section>
     <section class="section cv-section"><h2>Academic service and recruitment</h2><p>I serve on PhD advisory committees, contributing to the assessment of doctoral research progress. At the Data Analytics Lab, I have HR and recruitment responsibilities, including candidate selection.</p></section>
     <section class="section cv-section"><h2>Languages</h2><p>Dutch: native. English: C2 listening and reading; C1 speaking and writing. French: C1 listening and reading; B2 speaking; B1 writing. German: A1–A2, depending on skill.</p><p class="small">CEFR levels are self-assessed.</p></section>
@@ -419,10 +437,12 @@ def cv_content():
 def bibtex():
     entries = []
     for p in PAPERS:
-        kind = p.get('bibtex_type', {'journal': 'article', 'thesis': 'mastersthesis'}.get(p['kind'], 'unpublished'))
+        kind = p.get('bibtex_type', {'journal': 'article', 'conference': 'inproceedings', 'thesis': 'mastersthesis'}.get(p['kind'], 'unpublished'))
         fields = {'title': '{' + p['title'] + '}', 'author': ' and '.join('{' + n + '}' if 'Consortium' in n else n for n in p['authors']), 'year': str(p['year'])}
         if p['kind'] == 'journal':
             fields['journal'] = p['venue']
+        if p['kind'] == 'conference' or p.get('publication_type') == 'conference':
+            fields['booktitle'] = p['venue']
         if p['kind'] == 'thesis':
             fields['school'] = p['school']
         if p.get('doi'):
@@ -441,6 +461,7 @@ def bibtex():
 
 
 def build():
+    (ROOT / 'version.json').write_text(json.dumps({'version': SITE_VERSION}) + '\n')
     outputs = [
         ('index.html', 'Quantitative economics, data science and AI', home_content(), 'Brecht F. Verbeken: quantitative economist (PhD) and mathematician (MSc) by training, data scientist, and researcher on economics, AI and scientific discovery at Vrije Universiteit Brussel.', 'home'),
         ('research.html', 'Research', research_content(), 'Publications and working papers by Brecht F. Verbeken in economics, AI, model evaluation and mathematics.', 'research'),

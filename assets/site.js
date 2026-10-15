@@ -1,4 +1,53 @@
-// All content is available without JavaScript. Filtering is an optional aid.
+// All content is available without JavaScript. Refresh stale pages when online.
+(() => {
+  const currentVersion = document.querySelector('meta[name="site-version"]')?.content;
+  const parameter = '_site';
+  const retryParameter = '_refresh';
+  const interval = 60_000;
+  const pageUrl = new URL(location.href);
+  if (currentVersion && pageUrl.searchParams.get(parameter) === currentVersion) {
+    pageUrl.searchParams.delete(parameter);
+    pageUrl.searchParams.delete(retryParameter);
+    history.replaceState(history.state, '', pageUrl);
+  }
+
+  let checking = false;
+  let lastCheck = -Infinity;
+  async function checkVersion() {
+    const now = Date.now();
+    if (document.visibilityState === 'hidden' || checking || now - lastCheck < interval) return;
+    checking = true;
+    lastCheck = now;
+    try {
+      // Both browser and shared caches must be bypassed for this small manifest.
+      const manifest = new URL('version.json', location.href);
+      manifest.searchParams.set('_check', String(now));
+      const response = await fetch(manifest, { cache: 'no-store' });
+      if (!response.ok) return;
+      const { version } = await response.json();
+      if (typeof version !== 'string' || !/^[a-f0-9]{16}$/.test(version) || version === currentVersion) return;
+
+      const freshUrl = new URL(location.href);
+      // If an edge server briefly returns an older page, retry at most once a minute.
+      const previousAttempt = Number(freshUrl.searchParams.get(retryParameter));
+      if (freshUrl.searchParams.get(parameter) === version && now - previousAttempt < interval) return;
+      freshUrl.searchParams.set(parameter, version);
+      freshUrl.searchParams.set(retryParameter, String(now));
+      location.replace(freshUrl);
+    } catch {
+      // Offline visitors can continue reading; the next visible check will retry.
+    } finally {
+      checking = false;
+    }
+  }
+
+  checkVersion();
+  window.addEventListener('pageshow', checkVersion);
+  document.addEventListener('visibilitychange', checkVersion);
+  window.setInterval(checkVersion, interval);
+})();
+
+// Publication filtering is an optional aid.
 const filterBar = document.querySelector('[data-filters]');
 if (filterBar) {
   filterBar.hidden = false;

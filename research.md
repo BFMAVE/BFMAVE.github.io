@@ -120,6 +120,16 @@ Mathematics, 9(14), 1681 · 2021
 
 [PDF](https://www.mdpi.com/2227-7390/9/14/1681/pdf)
 
+## Conference papers
+
+### [Neutrino Fingerprints: Image-Based Encodings of IceCube Events for CNN Direction Reconstruction](https://researchportal.vub.be/en/publications/neutrino-fingerprints-image-based-encodings-of-icecube-events-for/)
+
+Floriano Tori, **Brecht F. Verbeken**, Vincent Ginis
+
+Conference on Physics and AI (PAI26), Stanford University · 2026
+
+[Preprint PDF](https://arxiv.org/pdf/2606.02788) [arXiv record](https://arxiv.org/abs/2606.02788) [Conference](https://events.stanford.edu/event/2026-conference-on-physics-and-ai-pai26)
+
 ## Working papers
 
 ### Rational Dyck Excursion Counts as Sums of Generalized Fuss–Catalan Products
@@ -151,14 +161,6 @@ Working paper · 2026 · arXiv:2606.26130
 
 We compare LLM-generated research-method suggestions with the methods reported in computer-science papers, examining which choices become more or less prominent.
 
-### [Neutrino Fingerprints: Image-Based Encodings of IceCube Events for CNN Direction Reconstruction](https://arxiv.org/abs/2606.02788)
-
-Floriano Tori, **Brecht F. Verbeken**, Vincent Ginis
-
-Working paper · 2026 · arXiv:2606.02788
-
-[PDF](https://arxiv.org/pdf/2606.02788)
-
 ### [Scalable Classification of Course Information Sheets Using Large Language Models: A Reusable Institutional Method for Academic Quality Assurance](https://arxiv.org/abs/2603.13562)
 
 **Brecht F. Verbeken**, Joke Van den Broeck, Inge De Cleyn, Steven Van Luchene, Nadine Engels, Andres Algaba, Vincent Ginis
@@ -186,14 +188,6 @@ Working paper · 2026 · arXiv:2602.18918
 [PDF](https://arxiv.org/pdf/2602.18918) Overview
 
 A documented case study of AI-assisted mathematical proof development, following generation, critical review and repair, with human mathematical verification.
-
-### [Probing the Trajectories of Reasoning Traces in Large Language Models](https://arxiv.org/abs/2601.23163)
-
-Marthe Ballon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
-
-Working paper · 2026 · arXiv:2601.23163
-
-[PDF](https://arxiv.org/pdf/2601.23163)
 
 ### [Benchmarks Saturate When The Model Gets Smarter Than The Judge](https://arxiv.org/abs/2601.19532)
 
@@ -241,6 +235,14 @@ An analysis of wealth-inequality dynamics using quarterly Distributional Wealth 
 Archiv der Mathematik · accepted; to appear
 
 [Preprint PDF](https://arxiv.org/pdf/2607.29105) [arXiv record](https://arxiv.org/abs/2607.29105)
+
+### [Probing the Trajectories of Reasoning Traces in Large Language Models](https://neurips.cc/virtual/2026/loc/sydney/poster/139405)
+
+Marthe Ballon, **Brecht F. Verbeken**, Vincent Ginis, Andres Algaba
+
+NeurIPS 2026 · accepted; to appear
+
+[Preprint PDF](https://arxiv.org/pdf/2601.23163) [arXiv record](https://arxiv.org/abs/2601.23163)
 
 ## Mathematical working papers
 

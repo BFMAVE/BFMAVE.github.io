@@ -71,10 +71,11 @@ story = [para('Brecht F. Verbeken', 'name'), para('Quantitative economics | Data
     para('<b>Mathematics.</b> Research on stochastic matrices and spectral regions, including an illustrated Karpelevič project with Vincent Ginis. First author of a documented case study of AI-assisted mathematical proof development.'),
     heading('Selected publications and working papers'),
 ]
-for pid in ['2508.15842', '2606.26130', '2602.18918', 'uplift', 'nowcasting']:
+for pid in ['2601.23163', '2508.15842', '2602.18918', 'uplift', 'nowcasting']:
     p = PAPERS[pid]
     names = ', '.join(p['authors'])
     venue = p['venue']
+    if p.get('status') == 'Accepted': venue += ' (accepted)'
     if p.get('location'): venue += ', ' + p['location']
     if p['kind'] == 'working': venue = 'Working paper, arXiv:' + p['arxiv']
     story.append(para(f'<b>{escape(p["title"])}</b><br/>{escape(names)} ({p["year"]}). <i>{escape(venue)}</i>. <link href="{escape(p["url"], quote=True)}" color="#183d59">Paper</link>', 'pub'))
