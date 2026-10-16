@@ -218,6 +218,7 @@ def home_content():
 <section class="section" id="media" aria-labelledby="media-heading">
   <div class="section-heading"><h2 id="media-heading">Media and public writing</h2><a href="media.html">All media</a></div>
   <ul class="work-list">
+    <li><a href="https://www.tijd.be/politiek-economie/belgie/vlaanderen/wanneer-ai-onze-passies-afneemt-het-staat-bijna-iedereen-te-wachten/10695566.html">Huilende wiskundigen zijn een voorbode: wat doet AI met onze professionele identiteit?</a><br><span class="small">De Tijd · Feature article with expert comments · 16 October 2026</span></li>
     <li><a href="https://www.standaard.be/opinies/de-wereld-heeft-er-een-superhacker-bij-nu-nog-leren-hoe-we-daarmee-omgaan/159873818.html">De wereld heeft er een superhacker bij, nu nog leren hoe we daarmee omgaan</a><br><span class="small">De Standaard · Opinion article with Andres Algaba · August 2026</span></li>
     <li><a href="https://www.standaard.be/opinies/soevereiniteit-is-geen-europese-chatbot/157225846.html">Soevereiniteit is geen Europese chatbot</a><br><span class="small">De Standaard · Opinion article with Vincent Ginis and Andres Algaba · June 2026</span></li>
     <li><a href="https://phys.org/news/2026-03-chatgpt-mathematical-proofs.html">ChatGPT can provide original mathematical proofs, researchers show</a><br><span class="small">Phys.org · Research coverage from VUB · March 2026</span></li>
@@ -288,8 +289,8 @@ def projects_content():
 
 
 def media_content():
-    body = '<div class="page-heading"><h1>Media and public writing</h1><p>Opinion articles and explainers I co-wrote, reporting on our research, and coverage of related projects.</p></div>'
-    for kind, title in [('authored', 'Opinion articles and explainers'), ('coverage', 'Research coverage'), ('project-coverage', 'Project announcements and coverage')]:
+    body = '<div class="page-heading"><h1>Media and public writing</h1><p>Opinion articles and explainers I co-wrote, expert comments, reporting on our research, and coverage of related projects.</p></div>'
+    for kind, title in [('authored', 'Opinion articles and explainers'), ('coverage', 'Expert comments and research coverage'), ('project-coverage', 'Project announcements and coverage')]:
         body += f'<section class="section" aria-labelledby="{kind}-heading"><h2 id="{kind}-heading">{title}</h2><ul class="paper-list">'
         for m in sorted([m for m in MEDIA if m['kind'] == kind], key=lambda m: m['date'], reverse=True):
             body += f'<li class="paper" id="{m["id"]}"><h3><a lang="{m["language"]}" href="{esc(m["url"])}">{esc(m["title"])}</a></h3>'
@@ -470,7 +471,7 @@ def build():
         ('index.html', 'Quantitative economics, data science and AI', home_content(), 'Brecht F. Verbeken: quantitative economist (PhD) and mathematician (MSc) by training, data scientist, and researcher on economics, AI and scientific discovery at Vrije Universiteit Brussel.', 'home'),
         ('research.html', 'Research', research_content(), 'Publications and working papers by Brecht F. Verbeken in economics, AI, model evaluation and mathematics.', 'research'),
         ('projects.html', 'Projects', projects_content(), 'Brecht F. Verbeken’s research and institutional work: Greening and CO₂ neutrality with imec, AI and science, JRC collaboration, FARI / AI4Gov-X, course information sheets and Brussels Metro 3.', 'projects'),
-        ('media.html', 'Media and public writing', media_content(), 'Brecht F. Verbeken’s opinion articles and research coverage in De Standaard, BRUZZ, Eos Wetenschap, Phys.org and other outlets.', 'media'),
+        ('media.html', 'Media and public writing', media_content(), 'Brecht F. Verbeken’s opinion articles, expert comments and research coverage in De Tijd, De Standaard, BRUZZ, Eos Wetenschap, Phys.org and other outlets.', 'media'),
         ('cv.html', 'Curriculum vitae', cv_content(), 'Curriculum vitae of Brecht F. Verbeken: quantitative economist working in data science and AI at Vrije Universiteit Brussel.', 'cv'),
         ('404.html', 'Page not found', '<section class="not-found"><p class="eyebrow">404</p><h1>Page not found</h1><p>This page may have moved. You can return to <a href="./">my homepage</a> or browse <a href="research.html">my research</a>.</p></section>', 'Return to Brecht F. Verbeken’s personal website.', ''),
     ]

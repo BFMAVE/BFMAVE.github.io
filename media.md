@@ -1,6 +1,6 @@
 # Media and public writing
 
-Opinion articles and explainers I co-wrote, reporting on our research, and coverage of related projects.
+Opinion articles and explainers I co-wrote, expert comments, reporting on our research, and coverage of related projects.
 
 ## Opinion articles and explainers
 
@@ -42,7 +42,13 @@ On AI capabilities, Humanity’s Last Exam and the implications for human intell
 
 [English version at VUB](https://www.vub.be/en/news/hoe-gaan-we-om-met-technologie-die-ons-intellectueel-voorbijstreeft)
 
-## Research coverage
+## Expert comments and research coverage
+
+### [Huilende wiskundigen zijn een voorbode: wat doet AI met onze professionele identiteit?](https://www.tijd.be/politiek-economie/belgie/vlaanderen/wanneer-ai-onze-passies-afneemt-het-staat-bijna-iedereen-te-wachten/10695566.html)
+
+De Tijd · 16 October 2026 · Feature article with expert comments
+
+On AI-assisted mathematics and the effects of automation on professional identity, featuring my perspective as a researcher.
 
 ### [ChatGPT can provide original mathematical proofs, researchers show](https://phys.org/news/2026-03-chatgpt-mathematical-proofs.html)
 

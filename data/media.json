@@ -73,6 +73,18 @@
     "alternative_label": "English version at VUB"
   },
   {
+    "id": "tijd-ai-identity",
+    "title": "Huilende wiskundigen zijn een voorbode: wat doet AI met onze professionele identiteit?",
+    "outlet": "De Tijd",
+    "date": "2026-10-16",
+    "display_date": "16 October 2026",
+    "kind": "coverage",
+    "type": "Feature article with expert comments",
+    "language": "nl",
+    "url": "https://www.tijd.be/politiek-economie/belgie/vlaanderen/wanneer-ai-onze-passies-afneemt-het-staat-bijna-iedereen-te-wachten/10695566.html",
+    "description": "On AI-assisted mathematics and the effects of automation on professional identity, featuring my perspective as a researcher."
+  },
+  {
     "id": "phys-proofs",
     "title": "ChatGPT can provide original mathematical proofs, researchers show",
     "outlet": "Phys.org",

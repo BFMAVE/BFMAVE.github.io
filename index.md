@@ -142,6 +142,9 @@ Nature, 649, 1139–1146 · 2026 · Brecht F. Verbeken: contributor to the HLE c
 ## Media and public writing
 [All media](https://bfmave.github.io/media.html)
 
+- [Huilende wiskundigen zijn een voorbode: wat doet AI met onze professionele identiteit?](https://www.tijd.be/politiek-economie/belgie/vlaanderen/wanneer-ai-onze-passies-afneemt-het-staat-bijna-iedereen-te-wachten/10695566.html)
+De Tijd · Feature article with expert comments · 16 October 2026
+
 - [De wereld heeft er een superhacker bij, nu nog leren hoe we daarmee omgaan](https://www.standaard.be/opinies/de-wereld-heeft-er-een-superhacker-bij-nu-nog-leren-hoe-we-daarmee-omgaan/159873818.html)
 De Standaard · Opinion article with Andres Algaba · August 2026
 
