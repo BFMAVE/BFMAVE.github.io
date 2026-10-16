@@ -1,8 +1,6 @@
 # Brecht F. Verbeken[*](https://bfmave.github.io/#name-note)
 
-I am a quantitative economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI, with a lasting passion for mathematics.
-
-I am a postdoctoral researcher and guest professor at the [Vrije Universiteit Brussel](https://researchportal.vub.be/en/persons/brecht-verbeken/), working in the [Data Analytics Lab](https://data.research.vub.be/)  at the Solvay Business School. Our team is highly interdisciplinary: many of us have backgrounds in mathematics or physics, with shared interests in economics and AI. Our PhD researchers typically pursue doctorates in interdisciplinary sciences. The exchange of ideas within this team shapes my research and contributes to the breadth of my work.
+I am a quantitative economist (PhD) and mathematician (MSc) by training. I am currently a postdoctoral researcher and guest professor at the [Vrije Universiteit Brussel](https://researchportal.vub.be/en/persons/brecht-verbeken/), working in the [Data Analytics Lab](https://data.research.vub.be/)  at the Solvay Business School. Our team is highly interdisciplinary: many of us have backgrounds in mathematics or physics, with shared interests in economics and AI. Our PhD researchers typically pursue doctorates in interdisciplinary sciences. The exchange of ideas within this team shapes my research and contributes to the breadth of my work.
 
 I feel at home in this environment because I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.
 
