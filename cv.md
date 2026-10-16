@@ -1,4 +1,4 @@
-Curriculum vitae · 15 October 2026
+Curriculum vitae · 16 October 2026
 
 # Brecht F. Verbeken
 

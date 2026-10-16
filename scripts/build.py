@@ -21,7 +21,7 @@ RELEASE_INPUTS = ['scripts/build.py', 'assets/site.js', 'assets/styles.css',
 SITE_VERSION = hashlib.sha256(BASE.encode() + b''.join(
     name.encode() + b'\0' + (ROOT / name).read_bytes() + b'\0'
     for name in RELEASE_INPUTS)).hexdigest()[:16]
-UPDATED = '15 October 2026'
+UPDATED = '16 October 2026'
 SCHOLAR = 'https://scholar.google.com/citations?user=MC0hy74AAAAJ&hl=en'
 ORCID = 'https://orcid.org/0000-0002-7506-3298'
 VUB = 'https://researchportal.vub.be/en/persons/brecht-verbeken/'
@@ -120,7 +120,7 @@ def page(title, content, filename, description, active='home'):
         graph.append({'@type': 'CollectionPage', '@id': canonical, 'name': 'Media and public writing',
                       'about': {'@id': BASE + '/#person'}, 'hasPart': [media_record(m) for m in MEDIA]})
     elif filename == 'index.html':
-        graph.append({'@type': 'ProfilePage', '@id': canonical, 'mainEntity': {'@id': BASE + '/#person'}, 'dateModified': '2026-10-15'})
+        graph.append({'@type': 'ProfilePage', '@id': canonical, 'mainEntity': {'@id': BASE + '/#person'}, 'dateModified': '2026-10-16'})
     structured = {'@context': 'https://schema.org', '@graph': graph}
     html = f'''<!doctype html>
 <html lang="en">
@@ -172,8 +172,9 @@ def home_content():
   <div class="intro-copy">
     <h1 id="name">Brecht F. Verbeken<sup class="name-note-ref"><a id="name-note-ref" href="#name-note" role="doc-noteref" aria-label="About my name">*</a></sup></h1>
     <p>I am a quantitative economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI, with a lasting passion for mathematics.</p>
-    <p>I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.</p>
-    <p>I am a postdoctoral researcher and guest professor at the <a href="{VUB}">Vrije Universiteit Brussel</a>. More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.</p>
+    <p>I am a postdoctoral researcher and guest professor at the <a href="{VUB}">Vrije Universiteit Brussel</a>, working in the <a href="https://data.research.vub.be/">Data Analytics Lab</a> at the Solvay Business School. Our team is highly interdisciplinary: many of us have backgrounds in mathematics or physics, with shared interests in economics and AI. The exchange of ideas within this team shapes my research and contributes to the breadth of my work.</p>
+    <p>I feel at home in this environment because I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.</p>
+    <p>More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.</p>
     <blockquote class="epigraph"><p>“I am not a donkey; I don’t have a field.”</p><cite>Falsely(?) attributed to <a href="https://maxweberstudies.org/source/files/MWSJournal/17.2pdfs/Max_Weber_Studies_17.2_LS_FINAL.pdf">Max Weber</a></cite></blockquote>
     <p>I am always curious about my colleagues’ research. My quantitative background often gives me a way to contribute, and these collaborations have taken me into many different areas. Sometimes this leads to an acknowledgement; sometimes to co-authorship. Perhaps the common thread is helping others move their research forward.</p>
     <p>I am proud of the team and colleagues I work with, at the <a href="https://data.research.vub.be/people">Data Analytics Lab</a> and beyond. Much of this work reflects our shared effort.</p>
@@ -487,12 +488,12 @@ def build():
     (ROOT / 'assets/publications.bib').write_text(bibtex())
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n')
     urls = [BASE + '/', BASE + '/research.html', BASE + '/projects.html', BASE + '/media.html', BASE + '/cv.html']
-    (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join(f'<url><loc>{u}</loc><lastmod>2026-10-15</lastmod></url>' for u in urls) + '</urlset>\n')
+    (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join(f'<url><loc>{u}</loc><lastmod>2026-10-16</lastmod></url>' for u in urls) + '</urlset>\n')
     profile = {
         'name': 'Brecht F. Verbeken',
         'full_name': 'Brecht Felix Marc Antoon Verbeken',
         'alternate_names': ['Brecht Verbeken', 'Brecht F Verbeken'],
-        'website': BASE + '/', 'updated': '2026-10-15', 'location': 'Brussels, Belgium',
+        'website': BASE + '/', 'updated': '2026-10-16', 'location': 'Brussels, Belgium',
         'description': 'Quantitative economist (PhD) and mathematician (MSc) by training; data scientist with strong interests in economics and AI and a passion for mathematics.',
         'email': EMAIL, 'orcid': ORCID, 'google_scholar': SCHOLAR, 'vub_profile': VUB,
         'appointments': [{'period': d, 'title': t, 'institution': org, 'description': desc} for d, t, org, desc in APPOINTMENTS],

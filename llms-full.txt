@@ -1,6 +1,6 @@
 # Brecht F. Verbeken — complete public website text
 
-Updated: 15 October 2026
+Updated: 16 October 2026
 
 
 
@@ -12,9 +12,11 @@ Source: https://bfmave.github.io/
 
 I am a quantitative economist (PhD) and mathematician (MSc) by training, and I think of myself as a data scientist. My interests centre on economics and AI, with a lasting passion for mathematics.
 
-I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.
+I am a postdoctoral researcher and guest professor at the [Vrije Universiteit Brussel](https://researchportal.vub.be/en/persons/brecht-verbeken/), working in the [Data Analytics Lab](https://data.research.vub.be/)  at the Solvay Business School. Our team is highly interdisciplinary: many of us have backgrounds in mathematics or physics, with shared interests in economics and AI. The exchange of ideas within this team shapes my research and contributes to the breadth of my work.
 
-I am a postdoctoral researcher and guest professor at the [Vrije Universiteit Brussel](https://researchportal.vub.be/en/persons/brecht-verbeken/). More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.
+I feel at home in this environment because I particularly enjoy bringing people with different specialities together and the cross-fertilisation of ideas that comes from interdisciplinary work. I often help set the research agenda and lead collaborations, as I have done since the early years of my PhD.
+
+More recently, I have become particularly interested in the economic impact of AI, especially how it changes scientific discovery and innovation. My work spans economic forecasting, model evaluation, and AI in mathematics and science.
 
 “I am not a donkey; I don’t have a field.”
 Falsely(?) attributed to [Max Weber](https://maxweberstudies.org/source/files/MWSJournal/17.2pdfs/Max_Weber_Studies_17.2_LS_FINAL.pdf)
@@ -709,7 +711,7 @@ Coverage of The Rate and Direction of Automated Science, a project led by Andres
 
 Source: https://bfmave.github.io/cv.html
 
-Curriculum vitae · 15 October 2026
+Curriculum vitae · 16 October 2026
 
 # Brecht F. Verbeken
 

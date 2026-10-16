@@ -2,7 +2,7 @@
 
 > Personal academic website of Brecht F. Verbeken, a quantitative economist (PhD) and mathematician (MSc) by training who works as a data scientist, postdoctoral researcher and guest professor at Vrije Universiteit Brussel. Interests: economics and AI; more recently, AI’s economic impact and its role in scientific discovery. Mathematics is also a personal passion.
 
-Last updated: 15 October 2026. The public HTML is complete without JavaScript. The text and structured records below mirror the visible website.
+Last updated: 16 October 2026. The public HTML is complete without JavaScript. The text and structured records below mirror the visible website.
 
 ## Pages
 
